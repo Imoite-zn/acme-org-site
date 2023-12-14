@@ -174,7 +174,7 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "Whycliffe Ijackaa",
     cover: "../images/t1.jpg",
     post: "FOUNDER, CEO",
   },

@@ -19,32 +19,32 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title='creative' caption='7' className='logomin' />
+              <img src="acme-logo.jpg" width={'50'} height={'50'}></img>
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
             <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
-              Home
+              HOME
             </Link>
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
+              WHO WE ARE
             </Link>
             <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
-              Team
+              TEAM
             </Link>
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
-              Services
+              WHAT WE DO
             </Link>
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              Showcase
+              NATURAL RES
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
-              Blog
+              BLOG
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
-              Contact
+              CONTACT
             </Link>
-            <button className='button-primary'>book a consultation</button>
+            <button className='button-primary'>reach out</button>
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

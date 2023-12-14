@@ -10,22 +10,39 @@ import React from "react"
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
+      <section className='hero-section'>
+        <div>
+          
+        </div>
+        <div className="hero-1">
         <div className='container'>
-          <TitleLogo title='creative' caption='7' className='logobg' />
-          <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
+          <TitleLogo title='' caption='' className='logobg' />
+          <div className='hero-title'> <h1>ACME</h1></div>
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
+            <TitleSm title='' /> <span>.</span>
+            <TitleSm title='' /> <span>.</span>
+            <TitleSm title='' />
           </div>
+        </div>
+        </div>
+        <div className="hero-2">
+        <div className='container'>
+          <TitleLogo title='' caption='' className='logobg' />
+          <div className='hero-title'> <h1>ACME</h1></div>
+
+          <div className='sub-heading'>
+            <TitleSm title='' /> <span>.</span>
+            <TitleSm title='' /> <span>.</span>
+            <TitleSm title='' />
+          </div>
+        </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you ll ever need' />
+            <Title title='ACME DEVELOPMENT ORGANISATION' />
             <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
           </div>
           <div className='hero-content grid-4'>

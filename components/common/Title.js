@@ -1,8 +1,8 @@
-export const TitleLogo = ({ title, caption, className }) => {
+export const TitleLogo = ({ src, className }) => {
   return (
     <h1 className={`${className}  title-logo`}>
-      <span>{caption}</span>
-      {title}
+      <span>{src}</span>
+      {src}
     </h1>
   )
 }

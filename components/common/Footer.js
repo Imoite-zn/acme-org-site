@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+               <img src="acme-logo.jpg" width={'50'} height={'50'}/>
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
@@ -19,12 +19,12 @@ const Footer = () => {
               <br />
               <h3>+1 001 234 5678</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className='button-primary'>Request newsletter</button>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/'>About us</Link>
               </li>
               <li>
                 <Link href='/'>Our team</Link>
@@ -85,12 +85,12 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 ACME. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>ACME DEVELOPMENT ORGANISATION</span>
               <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <span>NON - PROFIT</span>
             </div>
           </div>
         </div>
