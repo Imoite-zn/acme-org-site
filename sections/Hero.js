@@ -6,14 +6,37 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 const Hero = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <>
       <section className='hero-section'>
-        <div>
-          
-        </div>
+      <Slider {...settings}>
+          <div>
+          <img src="/images/b2.jpg" alt="Image 1" />
+          </div>
+          <div>
+            <img src="/images/b1.webp" alt="Image 2" />
+          </div>
+          <div>
+          <img src="/images/t5.jpg" alt="Image 1" />
+          </div>
+        </Slider>
+
         <div className="hero-1">
         <div className='container'>
           <TitleLogo title='' caption='' className='logobg' />
