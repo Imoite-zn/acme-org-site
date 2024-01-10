@@ -27,21 +27,18 @@ const Hero = () => {
       <section className='hero-section'>
       <Slider {...settings}>
           <div>
-          <img src="/images/b2.jpg" alt="Image 1" />
+          <img src="/images/b2.jpg" alt="Image 1" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <div>
-            <img src="/images/b1.webp" alt="Image 2" />
+            <img src="/images/b1.webp" alt="Image 2" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <div>
-          <img src="/images/t5.jpg" alt="Image 1" />
+          <img src="/images/t5.jpg" alt="Image 3" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
         </Slider>
 
         <div className="hero-1">
         <div className='container'>
-          <TitleLogo title='' caption='' className='logobg' />
-          <div className='hero-title'> <h1>ACME</h1></div>
-
           <div className='sub-heading'>
             <TitleSm title='' /> <span>.</span>
             <TitleSm title='' /> <span>.</span>
@@ -51,9 +48,6 @@ const Hero = () => {
         </div>
         <div className="hero-2">
         <div className='container'>
-          <TitleLogo title='' caption='' className='logobg' />
-          <div className='hero-title'> <h1>ACME</h1></div>
-
           <div className='sub-heading'>
             <TitleSm title='' /> <span>.</span>
             <TitleSm title='' /> <span>.</span>
