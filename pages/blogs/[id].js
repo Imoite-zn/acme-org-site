@@ -9,6 +9,10 @@ const SinglePost = () => {
   const router = useRouter()
   const { id } = router.query
   const post = blogdata.find((post) => post.id === parseInt(id))
+  
+  if (!post) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
