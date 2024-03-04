@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+254 700 122 222</h3>
               <br />
               <button className='button-primary'>Request newsletter</button>
             </div>
@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 ACME. ALL RIGHTS RESERVED.</span>
+              <span>© 2024 ACME. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
               <span>ACME DEVELOPMENT ORGANISATION</span>
