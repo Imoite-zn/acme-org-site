@@ -22,7 +22,7 @@ const Footer = () => {
               <button className='button-primary'>Request newsletter</button>
             </div>
             <ul>
-              <h3>COMPANY</h3>
+              <h3>QUICK LINKS</h3>
               <li>
                 <Link href='/'>About us</Link>
               </li>
@@ -34,9 +34,6 @@ const Footer = () => {
               </li>
               <li>
                 <Link href='/'>Blog</Link>
-              </li>
-              <li>
-                <Link href='/'>Demo design system</Link>
               </li>
               <li>
                 <Link href='/'>Contact</Link>
