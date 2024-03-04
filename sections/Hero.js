@@ -37,30 +37,13 @@ const Hero = () => {
           </div>
         </Slider>
 
-        <div className="hero-1">
-        <div className='container'>
-          <div className='sub-heading'>
-            <TitleSm title='' /> <span>.</span>
-            <TitleSm title='' /> <span>.</span>
-            <TitleSm title='' />
-          </div>
-        </div>
-        </div>
-        <div className="hero-2">
-        <div className='container'>
-          <div className='sub-heading'>
-            <TitleSm title='' /> <span>.</span>
-            <TitleSm title='' /> <span>.</span>
-            <TitleSm title='' />
-          </div>
-        </div>
-        </div>
+        
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
             <Title title='ACME DEVELOPMENT ORGANISATION' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            <p>ACME Development Organization (ACME) is a vibrant national peace and development organization that was established in December 2019 by a team of seasoned peace and development professionals from within the country. Special emphasis relates to pastoralism and its change mechanisms with affiliate links to other parts of the country in Turkana, Bungoma, Busia and Nairobi counties. ACME was registered on 20th December 2019 as a national NGO vide registration certificate number OP.218/051/19-225/11599.  ACME’s head office is located in Nairobi along Ngong Road at 5th Floor of Applewood Adams at 504. Acme has an office off Lodwar-Kakuma highway next to World Vision offices in Kakuma town and a office in Lodwar town. Our major mandate is to contribute towards community development of the Kenyan community through implementation of development projects in Turkana, Bungoma, Busia and Nairobi counties of Kenya.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
