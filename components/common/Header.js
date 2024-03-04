@@ -42,7 +42,7 @@ const Header = () => {
               BLOG
             </Link>
             <button className='button-primary'>
-            <Link href='/contact' 
+            <Link href='/contact' className= {activeLink}
             // className={activeLink == "/contact" ? "activeLink" : "none"}
               >
               CONTACT
