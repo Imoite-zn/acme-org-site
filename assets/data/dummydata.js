@@ -1,24 +1,24 @@
 import { AiOutlineCalendar } from "react-icons/ai"
 import { TfiRulerPencil } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
-import { BiUser } from "react-icons/bi"
+import { FaPeopleGroup } from "react-icons/fa6";
 
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "5+ years of operational experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Informartive modern approach ",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "20+ successful cases in portfolio",
   },
   {
-    icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    icon: <FaPeopleGroup size={25} />,
+    title: "Community involvement is our top priority",
   },
 ]
 export const expertise = [
