@@ -8,7 +8,7 @@ const Brand = () => {
       <section className='brand'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='WE ARE PROUD TO WORK WITH THESE COMPANIES' />
+            <Title title='OUR PARTNERS' />
           </div>
           <div className='brand-content grid-6 py'>
             {brand.map((item) => (
