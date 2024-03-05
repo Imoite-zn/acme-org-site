@@ -24,25 +24,25 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Community driven Development",
     cover: "../images/e1.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Water Sanitation and Hygiene",
     cover: "../images/e2.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Education",
     cover: "../images/e3.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Farming",
     cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
