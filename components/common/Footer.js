@@ -27,16 +27,16 @@ const Footer = () => {
                 <Link href='/'>Who We Are</Link>
               </li>
               <li>
-                <Link href='/'>Our Team</Link>
+                <Link href='/team'>Our Team</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/showcase'>Natural Resources</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/blogs'>Blog</Link>
               </li>
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
