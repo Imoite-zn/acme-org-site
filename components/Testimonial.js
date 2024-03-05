@@ -1,7 +1,7 @@
 import React from "react"
 import { TitleSm } from "./common/Title"
 import Link from "next/link"
-import { testimonial } from "@/assets/data/dummydata"
+
 import { HiOutlineArrowRight } from "react-icons/hi"
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri"
 import "slick-carousel/slick/slick.css"
