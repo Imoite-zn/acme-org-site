@@ -9,9 +9,9 @@ const ShowCase = () => {
       <section className='showcase bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='SHOWCASE' /> <br />
+            <TitleSm title='NATURAL RESOURCES' /> <br />
             <br />
-            <Title title='Fresh ideas. Bold design. Smart realisation.' className='title-bg' />
+            <Title title='Fresh ideas. Modern development. Smart realisation.' className='title-bg' />
           </div>
           <br />
           <br />
