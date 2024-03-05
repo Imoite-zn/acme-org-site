@@ -26,10 +26,10 @@ const Hero = () => {
       <section className='hero-section'>
       <Slider {...settings}>
           <div>
-          <img src="/images/art-top-crop.jpg" alt="Image 1" style={{ width: '100%', height: '70vh', objectFit: 'fill' }} />
+          <img src="assets/images/art-top-crop.jpg" alt="Image 1" style={{ width: '100%', height: '70vh', objectFit: 'fill' }} />
           </div>
           <div>
-            <img src="/images/" alt="Image 2" style={{ width: '100%', height: '70vh', objectFit: 'fill' }} />
+            <img src="/images/c1" alt="Image 2" style={{ width: '100%', height: '70vh', objectFit: 'fill' }} />
           </div>
           <div>
           <img src="/images/t5.jpg" alt="Image 3" style={{ width: '100%', height: '70vh', objectFit: 'fill' }} />
