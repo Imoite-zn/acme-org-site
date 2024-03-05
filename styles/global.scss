@@ -6,27 +6,6 @@
   flex: flex;
   flex-direction: column;
 
- .hero-1 {
-    padding: $xl-6 0;
-    height: 90vh !important;
-    width: 80%;
-    background-image: url("../assets/images/art-top-crop.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    overflow-x: hidden !important;
-  
-  }
-  .hero-2 {
-    padding: $xl-6 0;
-    height: 90vh !important;
-    width: 80%;
-    background-image: url("../assets/images/art-top-crop.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    overflow-x: hidden !important;
-  }
   .hero-title {
     color: #5c99c5;
     background-color: aliceblue;
@@ -61,6 +40,9 @@
     z-index: -1;
     background-color: $dark;
     filter: blur(20px);
+  }
+  .heading-title-section{
+    width: 80%;
   }
 }
 
