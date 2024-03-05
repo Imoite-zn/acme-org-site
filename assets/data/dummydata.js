@@ -152,7 +152,7 @@ export const teamdata = [
   {
     id: 2,
     title: "Anna Kovalenko",
-    cover: "",
+    cover: "../images/t2.jpg",
     post: "FINANCE DIRECTOR",
   },
   {
