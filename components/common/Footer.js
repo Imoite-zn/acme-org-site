@@ -24,10 +24,10 @@ const Footer = () => {
             <ul>
               <h3>QUICK LINKS</h3>
               <li>
-                <Link href='/'>About us</Link>
+                <Link href='/'>Who We Are</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/'>Our Team</Link>
               </li>
               <li>
                 <Link href='/'>Showcase</Link>
