@@ -36,8 +36,8 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
-                  <span>Career at Seven Creative</span>
+                  <h3>acmengo2018@gmail.com</h3>
+                  <span>Career at AcmeKenya.org</span>
                 </div>
               </div>
               <ul>
