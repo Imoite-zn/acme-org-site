@@ -111,6 +111,19 @@ export const brand = [
     id: 6,
     cover: "../images/d6.jpg",
   },
+  {
+    id: 7,
+    cover: "../images/d7.jpg",
+  },
+  {
+    id: 8,
+    cover: "../images/d8.jpg",
+  },
+  {
+    id: 9,
+    cover: "../images/d9.jpg",
+  },
+  
 ]
 export const blogdata = [
   {
