@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillInstagram, AiFillLinkedin, IoIosMailOpen } from "react-icons/ai"
 
 const Footer = () => {
   return (
@@ -30,7 +30,7 @@ const Footer = () => {
                 <Link href='/team'>Our Team</Link>
               </li>
               <li>
-                <Link href='/showcase'>Natural Resources</Link>
+                <Link href='/'>Our Partners</Link>
               </li>
               <li>
                 <Link href='/blogs'>Blog</Link>
@@ -42,24 +42,24 @@ const Footer = () => {
             <ul>
               <h3>WHAT WE DO</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/'>Environmental Conservation</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/'>Communitu Driven Development</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/'>Capacity Building</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/'>Resilience and Self-Reliance</Link>
               </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
+                  <Link href='/whycliffe.ijackaa@acmekenya.org'>
+                    <IoIosMailOpen={25} />
                   </Link>
                 </li>
                 <li>
