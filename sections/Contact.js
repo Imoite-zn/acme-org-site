@@ -70,6 +70,7 @@ const Contact = () => {
                     <input type='text' />
                   </div>
                 </div>
+                <div className='grid-2'>
                   <div className='inputs'>
                     <span>timeframe</span>
                     <input type='text' />
