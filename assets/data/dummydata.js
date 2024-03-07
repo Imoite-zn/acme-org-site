@@ -89,7 +89,7 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/d1.jpg",
   },
   {
     id: 2,
