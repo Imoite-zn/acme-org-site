@@ -25,13 +25,13 @@ export const expertise = [
   {
     id: 1,
     title: "Community driven Development",
-    cover: "../images/e1.jpg",
+    cover: "../images/community.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
     title: "Water Sanitation and Hygiene",
-    cover: "../images/e2.jpg",
+    cover: "../images/tank.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
@@ -43,7 +43,7 @@ export const expertise = [
   {
     id: 4,
     title: "Farming",
-    cover: "../images/e4.jpg",
+    cover: "../images/f2.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]
