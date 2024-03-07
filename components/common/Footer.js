@@ -59,7 +59,7 @@ const Footer = () => {
               <div className='connect'>
                 <li>
                   <Link href='/whycliffe.ijackaa@acmekenya.org'>
-                    <IoIosMailOpen={25} />
+                    <IoIosMailOpen size={25} />
                   </Link>
                 </li>
                 <li>
