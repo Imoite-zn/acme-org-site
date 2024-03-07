@@ -1,7 +1,8 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillInstagram, AiFillLinkedin, IoIosMailOpen } from "react-icons/ai"
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { IoIosMailOpen } from "react-icons/io";
 
 const Footer = () => {
   return (
