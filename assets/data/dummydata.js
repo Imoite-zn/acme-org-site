@@ -93,23 +93,23 @@ export const brand = [
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/d2.svg",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/d3.svg",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/d4.svg",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
+    cover: "../images/d5.svg",
   },
   {
     id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/d6.svg",
   },
 ]
 export const blogdata = [
