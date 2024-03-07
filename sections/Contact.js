@@ -5,6 +5,7 @@ import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Contact = () => {
   return (
@@ -45,7 +46,7 @@ const Contact = () => {
                   <BsFacebook size={25} />
                 </li>
                 <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
+                  <IoLogoWhatsapp href={'https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'} size={25} />
                 </li>
                 <li className='icon'>
                   <AiFillInstagram size={25} />
