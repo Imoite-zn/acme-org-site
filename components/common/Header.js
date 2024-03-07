@@ -19,7 +19,7 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <img src="/images/new-logo.jpg" width={'60'} height={'60'}></img>
+              <img src="/images/new-logo.jpg" width={'75'} height={'60'}></img>
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
