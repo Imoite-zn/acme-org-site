@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-               <img src="/images/acme-logo.jpg" width={'50'} height={'50'}/>
+               <img src="/images/new-logo.jpg" width={'75'} height={'60'}/>
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
