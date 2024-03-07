@@ -21,17 +21,17 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <h3>0700 122 222</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>New York</h3>
-                  <span>990 Madison Ave, Midtown Manhattan, 2th Floor, NY 10022</span>
+                  <h3>Nairobi</h3>
+                  <span>Bekim House, 1st Floor Suite 1B | 04 Crossway Road, Off Westlands Road |</span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <h3>'www.acmekenya.org'</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             <div className='right w-70'>
               <TitleSm title='Make an online enquiry' />
-              <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
+              <p className='desc-p'>Got questions? Fill out the form below to get our proposal. </p>
 
               <form>
                 <div className='grid-2'>
@@ -70,11 +70,6 @@ const Contact = () => {
                     <input type='text' />
                   </div>
                 </div>
-                <div className='grid-2'>
-                  <div className='inputs'>
-                    <span>your budget</span>
-                    <input type='text' />
-                  </div>
                   <div className='inputs'>
                     <span>timeframe</span>
                     <input type='text' />
