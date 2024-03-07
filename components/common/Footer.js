@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link href='/'>Environmental Conservation</Link>
               </li>
               <li>
-                <Link href='/'>Communitu Driven Development</Link>
+                <Link href='/'>Community Driven Development</Link>
               </li>
               <li>
                 <Link href='/'>Capacity Building</Link>
@@ -59,7 +59,7 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/whycliffe.ijackaa@acmekenya.org'>
+                  <Link href='whycliffe.ijackaa@acmekenya.org'>
                     <IoIosMailOpen size={25} />
                   </Link>
                 </li>
