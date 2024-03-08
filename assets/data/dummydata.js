@@ -176,10 +176,11 @@ export const teamdata = [
   },
 
   {
-    id: 4,
-    title: "Sharon Epero",
-    cover: "../images/Sharon Epero-Environment Officer.jpg",
-    post: "ENVIRONMENT OFFICER",
+    id: 7,
+    title: "Davis Wafula",
+    cover: "../images/Davis Wafula-Head of Programmes.jpg",
+    post: "HEAD OF PROGRAMMES",
+
   },
   {
     id: 5,
@@ -188,16 +189,17 @@ export const teamdata = [
     post: "SOCIAL SAFEGUARDS OFFICER",
   },
   {
+    id: 4,
+    title: "Sharon Epero",
+    cover: "../images/Sharon Epero-Environment Officer.jpg",
+    post: "ENVIRONMENT OFFICER",
+
+  },
+  {
     id: 6,
     title: "Julius Achilla",
     cover: "../images/Julius Achilla-Livelihood Officer.jpg",
     post: "LIVELIHOOD OFFICER",
-  },
-  {
-    id: 7,
-    title: "Davis Wafula",
-    cover: "../images/Davis Wafula-Head of Programmes.jpg",
-    post: "HEAD OF PROGRAMMES",
   },
   {
     id: 8,
