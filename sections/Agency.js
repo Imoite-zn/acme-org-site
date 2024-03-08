@@ -15,36 +15,36 @@ const Agency = () => {
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning lives better' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
+              <TitleSm title='Our Goal' />
+              <p className='desc-p'>Acme’s main goal is to contribute towards resolution of the inherent problems that affect the poorest of the poor among them nomadic pastoralists and vulnerable and marginalized groups. These inherent problems are manifested in conflicts, poverty, and inadequate access to water, sanitation and hygiene and a degraded environment.</p>
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>10+</h1>
+                  <h1 className='indigo'>5+</h1>
                   <h3>Years of experience</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='indigo'>50+</h1>
+                  <h1 className='indigo'>20+</h1>
                   <h3>Successful cases</h3>
                 </div>
                 <div className='box'>
                   <h1 className='indigo'>12+</h1>
-                  <h3>Industry awards</h3>
+                  <h3>Major Partners</h3>
                 </div>
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/s1.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/a1.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
           </div>
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/community.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
               <TitleSm title='Our mission' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>ACME targets vulnerable and marginalized members of the community. Also, ACME targets street children/families, displaced persons, and refugees across Kenya - with the aim of alleviating them from poverty and other undignified living conditions. Additionally, ACME seeks to empower multi-dimensionally poor through physical development, nutrition, health, education, child protection, information, water, sanitation and housing. ACME’s current constituency covers Turkana West Sub-County.</p>
             </div>
           </div>
         </div>
