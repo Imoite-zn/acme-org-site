@@ -33,7 +33,7 @@ const Agency = () => {
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/a1.jpg' alt='Img' className='round' width='100%' height='100% objectFill='contain'' />
+              <img src='/images/a1.jpg' alt='Img' className='round' width='100%' height='100%' objectFill='contain' />
             </div>
           </div>
 
