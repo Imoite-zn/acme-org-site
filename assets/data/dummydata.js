@@ -26,7 +26,7 @@ export const expertise = [
     id: 1,
     title: "Community driven Development",
     cover: "../images/community.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Web design" }, { text: "Education" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const showcase = [
   {
     id: 1,
     title: "Neon Lights",
-    cover: "../images/s1.jpg",
+    cover: "../images/f1.jpg",
     catgeory: "DIGITAL MARKETING",
   },
   {
@@ -129,29 +129,29 @@ export const blogdata = [
   {
     id: 1,
     title: "Ligula vel urna accumsan placerat",
-    cover: "../images/b1.webp",
-    catgeory: "INDUSTRY",
+    cover: "../images/f7.jpg",
+    catgeory: "FARMING",
     date: "JANUARY 12, 2023",
   },
   {
     id: 2,
     title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
+    cover: "../images/g2.jpg",
+    catgeory: "EDUCATION",
     date: "OCTOBER 20, 2023",
   },
   {
     id: 3,
     title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
+    cover: "../images/tank.jpg",
+    catgeory: "WATER CHANELLING",
     date: "OCTOBER 9, 2023",
   },
   {
     id: 4,
     title: "What eleifend posuere tincidunt",
-    cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
+    cover: "../images/a1.jpg",
+    catgeory: "BUILDING AND STRUCTURES",
     date: "OCTOBER 8, 2023",
   },
 ]
