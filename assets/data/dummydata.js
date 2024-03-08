@@ -201,7 +201,7 @@ export const teamdata = [
   },
   {
     id: 8,
-    title: "Gregory Windstorm",
+    title: "Rose",
     cover: "../images/Rose1.jpg",
     post: "ACCOUNTING MANAGER",
   },
