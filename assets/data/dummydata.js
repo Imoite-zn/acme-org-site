@@ -174,45 +174,40 @@ export const teamdata = [
     cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
     post: "LOGISTICS AND OFFICE ADMINISTRATOR",
   },
+
   {
     id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "SOCIAL SAFEGUARD",
-  },
-  {
-    id: 5,
     title: "Sharon Epero",
     cover: "../images/Sharon Epero-Environment Officer.jpg",
     post: "ENVIRONMENT OFFICER",
   },
   {
-    id: 6,
+    id: 5,
     title: "George Osokaise",
     cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
     post: "SOCIAL SAFEGUARDS OFFICER",
   },
   {
-    id: 7,
+    id: 6,
     title: "Julius Achilla",
     cover: "../images/Julius Achilla-Livelihood Officer.jpg",
     post: "LIVELIHOOD OFFICER",
   },
   {
-    id: 8,
+    id: 7,
     title: "Davis Wafula",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
     post: "HEAD OF PROGRAMMES",
   },
   {
-    id: 9,
+    id: 8,
     title: "Gregory Windstorm",
     cover: "../images/Rose1.jpg",
     post: "ACCOUNTING MANAGER",
   },
  
   {
-    id: 10,
+    id: 9,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     post: "VOLUNTEERING",
