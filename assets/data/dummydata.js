@@ -51,9 +51,9 @@ export const expertise = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
+    title: "Subsistence Farming",
     cover: "../images/f1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    catgeory: "FARMING",
   },
   {
     id: 2,
@@ -143,7 +143,7 @@ export const blogdata = [
   {
     id: 3,
     title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "../images/tank.jpg",
+    cover: "../images/tank2.jpg",
     catgeory: "WATER CHANELLING",
     date: "OCTOBER 9, 2023",
   },
