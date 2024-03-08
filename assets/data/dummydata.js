@@ -183,7 +183,7 @@ export const teamdata = [
   {
     id: 5,
     title: "Sharon Epero",
-    cover: "../images/t5.jpg",
+    cover: "../images/Sharon Epero-Environment Officer.jpg",
     post: "ENVIRONMENT OFFICER",
   },
   {
