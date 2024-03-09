@@ -22,7 +22,7 @@ const SinglePost = () => {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='TIPS & TRICKS / JANUARY 12, 2022' /> <br />
+            <TitleSm title='Strategies & Approaches' /> <br />
             <br />
             <Title title={post.title} className='title-bg' />
             <div className='img py'>
