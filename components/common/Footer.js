@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span> © 2024 ACME. ALL RIGHTS RESERVED.</span>
+              <span> © 2024 ACME. LETS MAKE A CHANGE.</span>
             </div>
             <div className='connect'>
               <span>ACME DEVELOPMENT ORGANISATION</span>
