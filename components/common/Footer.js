@@ -3,7 +3,6 @@ import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { IoIosMailOpen, IoLogoWhatsapp } from "react-icons/io";
-import CopyrightYear from 'react-copyright-year';
 
 const Footer = () => {
   return (
@@ -79,7 +78,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span> <CopyrightYear />  ACME. ALL RIGHTS RESERVED.</span>
+              <span> © 2024 ACME. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
               <span>ACME DEVELOPMENT ORGANISATION</span>
