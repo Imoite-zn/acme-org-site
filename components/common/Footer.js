@@ -5,7 +5,7 @@ import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { IoIosMailOpen, IoLogoWhatsapp } from "react-icons/io";
 
 const currentYear =new Date().getFullYear()
-export default currrentYear
+
 const Footer = () => {
   return (
     <>
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© <currentYear />  ACME. ALL RIGHTS RESERVED.</span>
+              <span>© <script>currentYear</script>  ACME. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
               <span>ACME DEVELOPMENT ORGANISATION</span>
