@@ -78,7 +78,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='inputs'>
-                  <span>TELL US ABOUT YOUR PROJECT*</span>
+                  <span>INQUIRY | INFORM US HERE</span>
                   <textarea cols='30' rows='10'></textarea>
                 </div>
                 <button className='button-primary'>Submit</button>
