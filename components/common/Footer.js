@@ -69,7 +69,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link src='https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'>
                     <IoLogoWhatsapp size={25} />
                   </Link>
                 </li>
