@@ -2,8 +2,10 @@ import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
-import { IoIosMailOpen } from "react-icons/io";
+import { IoIosMailOpen, IoLogoWhatsapp } from "react-icons/io";
 
+const currentYear =new Date().getFullYear()
+export default currrentYear
 const Footer = () => {
   return (
     <>
@@ -70,7 +72,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href='/'>
-                    <AiFillLinkedin size={25} />
+                    <IoLogoWhatsapp size={25} />
                   </Link>
                 </li>
               </div>
@@ -78,7 +80,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2024 ACME. ALL RIGHTS RESERVED.</span>
+              <span>© <currentYear />  ACME. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
               <span>ACME DEVELOPMENT ORGANISATION</span>
