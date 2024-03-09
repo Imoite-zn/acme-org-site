@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
-                    <span>timeframe</span>
+                    <span>Phone Number</span>
                     <input type='text' />
                   </div>
                 </div>
