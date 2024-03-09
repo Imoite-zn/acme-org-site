@@ -59,9 +59,9 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <a target='_blank' rel='noopener noreferrer' href='whycliffe.ijackaa@acmekenya.org'>
+                  <Link href='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ATuJsjwmSp3e_RWgO-K9pbjvZdjVJepcTVRmrwcPYoKAvNsd-hDvAWdyYaYuTMfwASlm-beHRX4S&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1829073680%3A1709993330083450&theme=mn'>
                     <IoIosMailOpen size={25} />
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link href='/'>
