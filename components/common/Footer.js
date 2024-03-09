@@ -59,9 +59,9 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='whycliffe.ijackaa@acmekenya.org'>
+                  <a target='_blank' rel='noopener noreferrer' href='whycliffe.ijackaa@acmekenya.org'>
                     <IoIosMailOpen size={25} />
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <Link href='/'>
@@ -69,7 +69,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link src='https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'>
+                  <Link href='https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'>
                     <IoLogoWhatsapp size={25} />
                   </Link>
                 </li>
