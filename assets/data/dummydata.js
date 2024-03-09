@@ -44,7 +44,7 @@ export const expertise = [
     id: 4,
     title: "Farming",
     cover: "../images/f2.jpg",
-    desc: [{ text: "Sunsistence Farming" }, { text: "Application of Modern Farming Techniques" }, { text: "Farm water management" }],
+    desc: [{ text: "Subsistence Farming" }, { text: "Application of Modern Farming Techniques" }, { text: "Farm water management" }],
   },
 ]
 
