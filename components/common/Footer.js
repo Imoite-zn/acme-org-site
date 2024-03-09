@@ -20,7 +20,9 @@ const Footer = () => {
               <br />
               <h3>+254 700 122 222</h3>
               <br />
+              <Link href='/contact'>
               <button className='button-primary'>Request newsletter</button>
+              </Link>
             </div>
             <ul>
               <h3>QUICK LINKS</h3>
