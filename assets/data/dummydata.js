@@ -59,7 +59,7 @@ export const showcase = [
     id: 2,
     title: "Water channeling",
     catgeory: "WATER",
-    cover: "../images/s2.jpg",
+    cover: "../images/tank2.jpg",
   },
   {
     id: 3,
