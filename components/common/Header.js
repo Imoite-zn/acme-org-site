@@ -36,7 +36,7 @@ const Header = () => {
               WHAT WE DO
             </Link>
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              NATURAL RES
+              NATURAL RESOURCES
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               BLOG
