@@ -38,9 +38,9 @@ header {
       display: none;
     }
     }
-     .closedMenu{
-     button>.burger-menu{
-      visibility: visible;
+     
+     .burger-menu{
+      display: block;
     }
     .openMenu {
       position: absolute;
