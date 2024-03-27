@@ -13,6 +13,9 @@ header {
         margin: 0 $xl-2;
       }
     }
+    .burger-menu{
+      display: none! important;
+    }
   }
 }
 .activeLink {
