@@ -2,7 +2,7 @@ import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import { RiMenu4Line } from "react-icons/ri"
+import { ImMenu4 } from "react-icons/im"
 import { AiOutlineClose } from "react-icons/ai"
 
 const Header = () => {
@@ -47,7 +47,7 @@ const Header = () => {
             </button>
             </Link>
           </nav>
-          <button className='burger-menu' onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
+          <button className='burger-menu' onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <ImMenu4 size={25} />}</button>
         </div>
       </header>
     </>
