@@ -71,7 +71,7 @@ export const showcase = [
     id: 4,
     title: "Community Driven Development",
     cover: "../images/community.jpg",
-    catgeory: "COMMUNITY	",
+    catgeory: "COMMUNITY",
   },
   {
     id: 5,
@@ -217,7 +217,7 @@ export const teamdata = [
   {
     id: 10,
     title: "Grace Nasike",
-    cover: "../images/Nasike Treasure.jpg",
+    cover: "../images/Nasike Treasurer.jpg",
     post: "MEDICAL DOCTOR & TREASURER",
   },
   {
