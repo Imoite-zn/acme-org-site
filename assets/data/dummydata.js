@@ -222,7 +222,7 @@ export const teamdata = [
   },
   {
     id: 11,
-    title: "Ekidor",
+    title: "Bernard Arii",
     cover: "../images/Ekidor Secretary.jpg",
     post: "SECRETARY",
   },
@@ -230,35 +230,29 @@ export const teamdata = [
   {
     id: 12,
     title: "Halima Duba",
-    cover: "../images/Davis Wafula-Head of Programmes.jpg",
+    cover: "../images/Halima Member.jpg",
     post: "EDUCATION SPECIALIST",
 
   },
   {
     id: 13,
-    title: "Bernard Arii",
-    cover: "../images/Davis Wafula-Head of Programmes.jpg",
-    post: "HEAD OF PROGRAMMES",
-
-  },
-   {
-    id: 14,
     title: "Joyce Enyakai",
     cover: "../images/Joyce1.jpg",
     post: "CHAIRLADY & HR SPECIALIST",
 
   },
    {
-    id: 15,
+    id: 14,
     title: "Peter Akamu",
     cover: "../images/Peter Akamu-Peacebuilding Officer.jpg",
     post: "PEACE BUILDING OFFICER",
 
   },
-    {
-    id: 16,
+   {
+    id: 15,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     post: "VOLUNTEERING",
+
   },
 ]
