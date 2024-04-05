@@ -207,37 +207,37 @@ export const teamdata = [
     cover: "../images/Rose1.jpg",
     post: "ACCOUNTING MANAGER",
   },
- 
+
   {
     id: 9,
-    title: "Volunteer? Join our team!",
-    cover: "../images/volunteer.jpg",
-    post: "VOLUNTEERING",
-  },
-    {
-    id: 1,
     title: "Whycliffe Ijackaa",
     cover: "../images/t1.jpg",
     post: "FOUNDER, CEO",
   },
   {
-    id: 2,
+    id: 10,
     title: "Mark Mulela",
     cover: "../images/Mark Mulela-Finance and Administration Officer.jpg",
     post: "FINANCE AND ADMINISTRATION",
   },
   {
-    id: 3,
+    id: 11,
     title: "Christabel Ekutan",
     cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
     post: "LOGISTICS AND OFFICE ADMINISTRATOR",
   },
 
   {
-    id: 4,
+    id: 12,
     title: "Davis Wafula",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
     post: "HEAD OF PROGRAMMES",
 
+  },
+    {
+    id: 13,
+    title: "Volunteer? Join our team!",
+    cover: "../images/volunteer.jpg",
+    post: "VOLUNTEERING",
   },
 ]
