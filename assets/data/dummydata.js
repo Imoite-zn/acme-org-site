@@ -176,7 +176,7 @@ export const teamdata = [
   },
 
   {
-    id: 7,
+    id: 4,
     title: "Davis Wafula",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
     post: "HEAD OF PROGRAMMES",
@@ -189,14 +189,14 @@ export const teamdata = [
     post: "SOCIAL SAFEGUARDS OFFICER",
   },
   {
-    id: 4,
+    id: 6,
     title: "Sharon Epero",
     cover: "../images/Sharon Epero-Environment Officer.jpg",
     post: "ENVIRONMENT OFFICER",
 
   },
   {
-    id: 6,
+    id: 7,
     title: "Julius Achilla",
     cover: "../images/Julius Achilla-Livelihood Officer.jpg",
     post: "LIVELIHOOD OFFICER",
@@ -213,5 +213,31 @@ export const teamdata = [
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     post: "VOLUNTEERING",
+  },
+    {
+    id: 1,
+    title: "Whycliffe Ijackaa",
+    cover: "../images/t1.jpg",
+    post: "FOUNDER, CEO",
+  },
+  {
+    id: 2,
+    title: "Mark Mulela",
+    cover: "../images/Mark Mulela-Finance and Administration Officer.jpg",
+    post: "FINANCE AND ADMINISTRATION",
+  },
+  {
+    id: 3,
+    title: "Christabel Ekutan",
+    cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
+    post: "LOGISTICS AND OFFICE ADMINISTRATOR",
+  },
+
+  {
+    id: 4,
+    title: "Davis Wafula",
+    cover: "../images/Davis Wafula-Head of Programmes.jpg",
+    post: "HEAD OF PROGRAMMES",
+
   },
 ]
