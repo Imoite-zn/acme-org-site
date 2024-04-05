@@ -210,32 +210,53 @@ export const teamdata = [
 
   {
     id: 9,
-    title: "Whycliffe Ijackaa",
-    cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    title: "John Imoite",
+    cover: "../images/John Imoite.png",
+    post: "",
   },
   {
     id: 10,
-    title: "Mark Mulela",
-    cover: "../images/Mark Mulela-Finance and Administration Officer.jpg",
-    post: "FINANCE AND ADMINISTRATION",
+    title: "Grace Nasike",
+    cover: "../images/Nasike Treasure.jpg",
+    post: "MEDICAL DOCTOR & TREASURER",
   },
   {
     id: 11,
-    title: "Christabel Ekutan",
-    cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
-    post: "LOGISTICS AND OFFICE ADMINISTRATOR",
+    title: "Ekidor",
+    cover: "../images/Ekidor Secretary.jpg",
+    post: "SECRETARY",
   },
 
   {
     id: 12,
-    title: "Davis Wafula",
+    title: "Halima Duba",
+    cover: "../images/Davis Wafula-Head of Programmes.jpg",
+    post: "EDUCATION SPECIALIST",
+
+  },
+  {
+    id: 13,
+    title: "Bernard Arii",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
     post: "HEAD OF PROGRAMMES",
 
   },
+   {
+    id: 14,
+    title: "Joyce Enyakai",
+    cover: "../images/Joyce1.jpg",
+    post: "CHAIRLADY & HR SPECIALIST",
+
+  },
+   {
+    id: 15,
+    title: "Peter Akamu",
+    cover: "../images/Peter Akamu-Peacebuilding Officer.jpg",
+    post: "PEACE BUILDING OFFICER",
+
+  },
     {
-    id: 13,
+    id: 16,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     post: "VOLUNTEERING",
