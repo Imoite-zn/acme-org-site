@@ -22,31 +22,14 @@ const Brand = () => {
           <div className='brand-content grid-6 py'>
         <section className='partners-section'>
       <Slider {...settings}>
-          <div>
-            <img src="/images/d1.jpg" alt="Image 1" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
-          </div>
-          <div>
-            <img src="/images/d2.jpg" alt="Image 2" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
-          </div>
-          <div>
-            <img src="/images/d3.jpg" alt="Image 3" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
-          </div>
-         <div>
-            <img src="/images/d4.jpg" alt="Image 1" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
-          </div>
-          <div>
-            <img src="/images/d5.jpg" alt="Image 2" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
-          </div>
-          <div>
-            <img src="/images/d6.jpg" alt="Image 3" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
-          </div>
+         {brand.map((item) => (
+              <div className='images' key={item.id}>
+                <img src={item.cover} alt={item.id} width='100%' height='auto' />
+              </div>
+            ))}
         </Slider>        
       </section>
-           // {brand.map((item) => (
-            //  <div className='images' key={item.id}>
-               // <img src={item.cover} alt={item.id} width='100%' height='auto' />
-             // </div>
-           // ))}
+            
           </div>
         </div>
       </section> 
