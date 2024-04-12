@@ -17,22 +17,22 @@ const Brand = () => {
      <section className='partners-section'>
       <Slider {...settings}>
           <div>
-            <img src="/images/d1.jpg" alt="Image 1" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+            <img src="/images/d1.jpg" alt="Image 1" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
           <div>
-            <img src="/images/d2.jpg" alt="Image 2" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+            <img src="/images/d2.jpg" alt="Image 2" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
           <div>
-            <img src="/images/d3.jpg" alt="Image 3" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+            <img src="/images/d3.jpg" alt="Image 3" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
          <div>
-            <img src="/images/d4.jpg" alt="Image 1" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+            <img src="/images/d4.jpg" alt="Image 1" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
           <div>
-            <img src="/images/d5.jpg" alt="Image 2" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+            <img src="/images/d5.jpg" alt="Image 2" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
           <div>
-            <img src="/images/d6.jpg" alt="Image 3" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+            <img src="/images/d6.jpg" alt="Image 3" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
         </Slider>
 
