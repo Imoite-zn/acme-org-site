@@ -52,6 +52,7 @@ header {
       height: 45vh;
       padding: 20px;
       background: $dark;
+      overflow: auto;
       display: flex;
       flex-direction: column;
       z-index: 999;
@@ -59,8 +60,7 @@ header {
         width: 100%;
         display: block;
         display: flex;
-        margin-bottom: 20px;
-        background: $dark;
+        margin-bottom: 30px !important;
       }
     }
     .button-primary {
