@@ -212,7 +212,7 @@ export const teamdata = [
     id: 9,
     title: "John Imoite",
     cover: "../images/John Imoite.png",
-    post: "",
+    post: "MEMBER",
   },
   {
     id: 10,
