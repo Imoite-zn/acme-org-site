@@ -184,9 +184,9 @@ export const teamdata = [
   },
   {
     id: 5,
-    title: "George Osokaise",
-    cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
-    post: "SOCIAL SAFEGUARDS OFFICER",
+    title: "Julius Achilla",
+    cover: "../images/Julius Achilla-Livelihood Officer.jpg",
+    post: "LIVELIHOOD OFFICER",
   },
   {
     id: 6,
@@ -197,9 +197,9 @@ export const teamdata = [
   },
   {
     id: 7,
-    title: "Julius Achilla",
-    cover: "../images/Julius Achilla-Livelihood Officer.jpg",
-    post: "LIVELIHOOD OFFICER",
+    title: "George Osokaise",
+    cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
+    post: "SOCIAL SAFEGUARDS OFFICER",
   },
   {
     id: 8,
