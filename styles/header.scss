@@ -60,16 +60,13 @@ header {
         display: block;
         display: flex;
         margin-bottom: 30px !important;
+        background: $dark;
       }
     }
     .button-primary {
       visibility: visible;
     }
-    //.burger-menu{
-      //display: flex;
-      //display: block;//
-      
-    //}//
+
   
   .activeLink {
     &::after {
