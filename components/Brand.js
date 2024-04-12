@@ -14,7 +14,13 @@ const Brand = () => {
   };
   return (
     <>
-     <section className='partners-section'>
+      <section className='brand'>
+        <div className='container'>
+         <div className='heading-title'>
+            <Title title='OUR PARTNERS' />
+          </div>
+          <div className='brand-content grid-6 py'>
+        <section className='partners-section'>
       <Slider {...settings}>
           <div>
             <img src="/images/d1.jpg" alt="Image 1" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
@@ -34,24 +40,16 @@ const Brand = () => {
           <div>
             <img src="/images/d6.jpg" alt="Image 3" style={{ width: '10%', height: '15vh', objectFit: 'contain' }} />
           </div>
-        </Slider>
-
-        
+        </Slider>        
       </section>
-     /* <section className='brand'>
-        <div className='container'>
-         <div className='heading-title'>
-            <Title title='OUR PARTNERS' />
-          </div>
-          <div className='brand-content grid-6 py'>
-            {brand.map((item) => (
-              <div className='images' key={item.id}>
-                <img src={item.cover} alt={item.id} width='100%' height='auto' />
-              </div>
-            ))}
+           // {brand.map((item) => (
+            //  <div className='images' key={item.id}>
+               // <img src={item.cover} alt={item.id} width='100%' height='auto' />
+             // </div>
+           // ))}
           </div>
         </div>
-      </section> */
+      </section> 
     </>
   )
 }
