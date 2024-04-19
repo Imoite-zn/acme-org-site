@@ -140,6 +140,7 @@ export const blogdata = [
     cover: "../images/g2.jpg",
     catgeory: "EDUCATION & HEALTH AWARENESS",
     date: "OCTOBER 20, 2022",
+    description:,
   },
   {
     id: 3,
@@ -147,6 +148,7 @@ export const blogdata = [
     cover: "../images/tank2.jpg",
     catgeory: "HABITAT PLANNING & IMPROVEMENT",
     date: "OCTOBER 9, 2022",
+    description:,
   },
   {
     id: 4,
@@ -154,6 +156,7 @@ export const blogdata = [
     cover: "../images/a1.jpg",
     catgeory: "LINKAGES & NETWORKS",
     date: "OCTOBER 8, 2022",
+    description:,
   },
 ]
 export const teamdata = [
@@ -162,18 +165,21 @@ export const teamdata = [
     title: "Whycliffe Ijackaa",
     cover: "../images/t1.jpg",
     post: "FOUNDER, CEO",
+    description:,
   },
   {
     id: 2,
     title: "Mark Mulela",
     cover: "../images/Mark Mulela-Finance and Administration Officer.jpg",
     post: "FINANCE AND ADMINISTRATION",
+    description:,
   },
   {
     id: 3,
     title: "Christabel Ekutan",
     cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
     post: "LOGISTICS AND OFFICE ADMINISTRATOR",
+    description:,
   },
 
   {
@@ -181,32 +187,35 @@ export const teamdata = [
     title: "Davis Wafula",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
     post: "HEAD OF PROGRAMMES",
-
+    description:"A seasoned professional in conflict resolution, peacebuilding, and humanitarian efforts, is dedicated to advancing Gender Equality and Women's Empowerment (GEWE), Food, Water,and Nutrition Security (FWNS), and Humanitarian and Emergency Response initiatives. Holding a Bachelors degree in Conflict Resolution and Peace Building and a Masters in Public Administration and Management, Davis boasts a robust academic foundation. Throughout his career, he has excelled in various leadership roles, from MEARL at Acme Development Organization to key positions in conflict-affected regions such as Turkana, South Sudan, and Uganda. Davis also served as the Team Leader and M&amp;E Specialist for the World Bank Kenya Development Response to Displacement Impacts (KDRDIP) project under Seeds of Peace Africa (SOPA). Notably, as Director of Planning and Development Services with North Karamoja Diocese, he revitalized projects and secured significant donor backing, facilitating reconciliation between conflicted communities. Moreover, as Project Manager with national organizations, Davis successfully managed WASH, food security, and Alternative Dispute Resolution programs across South Sudan;s Eastern Equatoria, Jonglei and Upper Nile states.",
   },
   {
     id: 5,
     title: "Julius Achilla",
     cover: "../images/Julius Achilla-Livelihood Officer.jpg",
     post: "LIVELIHOOD OFFICER",
+    description:,
   },
   {
     id: 6,
     title: "Sharon Epero",
     cover: "../images/Sharon Epero-Environment Officer.jpg",
     post: "ENVIRONMENT OFFICER",
-
+    description:,
   },
   {
     id: 7,
     title: "George Osokaise",
     cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
     post: "SOCIAL SAFEGUARDS OFFICER",
+    description:,
   },
   {
     id: 8,
     title: "Rose",
     cover: "../images/Rose1.jpg",
     post: "ACCOUNTING MANAGER",
+    description:,
   },
 
   {
@@ -214,18 +223,21 @@ export const teamdata = [
     title: "John Imoite",
     cover: "../images/John Imoite.png",
     post: "MEMBER",
+    description:,
   },
   {
     id: 10,
     title: "Grace Nasike",
     cover: "../images/Nasike Treasurer.jpg",
     post: "MEDICAL DOCTOR & TREASURER",
+    description:,
   },
   {
     id: 11,
     title: "Bernard Arii",
     cover: "../images/Ekidor Secretary.jpg",
     post: "SECRETARY",
+    description:,
   },
 
   {
@@ -233,27 +245,27 @@ export const teamdata = [
     title: "Halima Duba",
     cover: "../images/Halima Member.jpg",
     post: "EDUCATION SPECIALIST",
-
+    description:,
   },
   {
     id: 13,
     title: "Joyce Enyakai",
     cover: "../images/Joyce1.jpg",
     post: "CHAIRLADY & HR SPECIALIST",
-
+    description:,
   },
    {
     id: 14,
     title: "Peter Akamu",
     cover: "../images/Peter Akamu-Peacebuilding Officer.jpg",
     post: "PEACE BUILDING OFFICER",
-
+    description:,
   },
    {
     id: 15,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     post: "VOLUNTEERING",
-
+    description:,
   },
 ]
