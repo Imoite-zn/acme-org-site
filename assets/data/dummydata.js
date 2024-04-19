@@ -132,7 +132,7 @@ export const blogdata = [
     cover: "../images/f7.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
     date: "JANUARY 12, 2022",
-    description: {text : "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."},
+    description: "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.",
   },
   {
     id: 2,
@@ -140,7 +140,7 @@ export const blogdata = [
     cover: "../images/g2.jpg",
     catgeory: "EDUCATION & HEALTH AWARENESS",
     date: "OCTOBER 20, 2022",
-    description: {text : "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."},
+    description: "2Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.",
   },
   {
     id: 3,
@@ -148,7 +148,7 @@ export const blogdata = [
     cover: "../images/tank2.jpg",
     catgeory: "HABITAT PLANNING & IMPROVEMENT",
     date: "OCTOBER 9, 2022",
-    description:{text : "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."},
+    description: "3Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.",
   },
   {
     id: 4,
@@ -156,7 +156,7 @@ export const blogdata = [
     cover: "../images/a1.jpg",
     catgeory: "LINKAGES & NETWORKS",
     date: "OCTOBER 8, 2022",
-    description:{text : "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."},
+    description: "4Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.",
   },
 ]
 export const teamdata = [
