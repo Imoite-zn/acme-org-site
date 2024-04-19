@@ -132,6 +132,7 @@ export const blogdata = [
     cover: "../images/f7.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
     date: "JANUARY 12, 2022",
+    description: "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.",
   },
   {
     id: 2,
