@@ -123,6 +123,10 @@ export const brand = [
     id: 9,
     cover: "../images/d9.jpg",
   },
+  {
+    id: 10,
+    cover: "../images/horn-learning-logo.png",
+  },
   
 ]
 export const blogdata = [
