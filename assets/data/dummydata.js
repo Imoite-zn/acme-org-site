@@ -81,7 +81,7 @@ export const showcase = [
   },
   {
     id: 5,
-    title: "",
+    title: "Education",
     cover: "../images/s6.jpg",
     catgeory: "EDUCATION",
   },
