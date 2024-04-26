@@ -122,6 +122,8 @@
 .brand-content {
   flex: flex;
   flex-direction: column;
+  display: block;
+  height: 10vh;
   img {
     transition: 0.5s ease-in-out;
     &:hover {
