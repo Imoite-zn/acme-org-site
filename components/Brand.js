@@ -29,8 +29,8 @@ const Brand = () => {
               <div className='images' key={item.id}>
                 <img src={item.cover} alt={item.id} width='100%' height='auto' />
               </div>
-          </div>
             ))}
+              </div>
     </Slider>     
         </div>
       </section> 
