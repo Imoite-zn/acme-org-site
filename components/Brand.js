@@ -24,7 +24,7 @@ const Brand = () => {
             <Title title='OUR PARTNERS' />
           </div>
     <Slider {...settings}>
-          <div className='brand-content '>
+          <div className='brand-content grid-4'>
   /* py-styling for padding */
            {brand.map((item) => (
               <div className='images' key={item.id}>
