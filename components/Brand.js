@@ -14,6 +14,7 @@ const Brand = () => {
     speed: 500,    
     autoplay: true,
     autoplaySpeed: 3000,
+    slidesToShow: 5,
   };
     
   return (
@@ -24,13 +25,11 @@ const Brand = () => {
             <Title title='OUR PARTNERS' />
           </div>
     <Slider {...settings}>
-          <div className='grid-4 py'>
            {brand.map((item) => (
               <div className='images' key={item.id}>
-                <img src={item.cover} alt={item.id} width='100%' height='auto' />
+                <img src={item.cover} alt={item.id} />
               </div>
             ))}
-              </div>
     </Slider>     
         </div>
       </section> 
