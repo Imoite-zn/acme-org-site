@@ -25,7 +25,6 @@ const Brand = () => {
           </div>
     <Slider {...settings}>
           <div className='grid-4 py'>
-  /* brand content-styling for padding */
            {brand.map((item) => (
               <div className='images' key={item.id}>
                 <img src={item.cover} alt={item.id} width='100%' height='auto' />
