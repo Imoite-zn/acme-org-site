@@ -9,7 +9,6 @@ import 'slick-carousel/slick/slick-theme.css';
 const Brand = () => {
 
   const settings =  {
-    dots: true,
     infinite: true,
     speed: 500,    
     autoplay: true,
