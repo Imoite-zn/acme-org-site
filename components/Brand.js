@@ -23,7 +23,7 @@ const Brand = () => {
          <div className='heading-title'>
             <Title title='OUR PARTNERS' />
           </div>
-    <Slider {...settings}>
+    <Slider {...settings} className='py' >
            {brand.map((item) => (
               <div className='images' key={item.id}>
                 <img src={item.cover} alt={item.id} />
