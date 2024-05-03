@@ -180,10 +180,10 @@ export const teamdata = [
   },
   {
     id: 3,
-    title: "Christabel Ekutan",
+    title: "Christabel Abong Ekutan",
     cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
     post: "LOGISTICS AND OFFICE ADMINISTRATOR",
-    description:"TBA",
+    description:"Abong is the administrative and logistics officer with ACME.  Abong is a determined administrator who loves and understands her assignment. She can quickly and easily retrieve information from records, email, minutes, and other related documents when needed. She is keen on the preparation of written summarized data, responds to and resolves administrative inquiries and questions and good making schedules and coordination of staff and other meetings.",
   },
 
   {
@@ -205,7 +205,7 @@ export const teamdata = [
     title: "Sharon Epero",
     cover: "../images/Sharon Epero-Environment Officer.jpg",
     post: "ENVIRONMENT OFFICER",
-    description:"TBA",
+    description:"Sharon hails from Oropoi in Turkana West. Sharon worked with WFP as a village agent in conducting training for Oropoi community women-led groups on village savings and loaning association (VSLA). Sharon works with as a field staff charged with livelihoods related activities. Sharon facilitates a farming group in Oropoi that produces vegetables. As a determined mentor, Sharon leads pastoral women into crop farming.",
   },
   {
     id: 7,
@@ -263,7 +263,7 @@ export const teamdata = [
     title: "Peter Akamu",
     cover: "../images/Peter Akamu-Peacebuilding Officer.jpg",
     post: "PEACE BUILDING OFFICER",
-    description:{text: "TBA"},
+    description:{text: "Akamu Peter is a seasoned community worker who has been in the field of peace building and conflict transformation for long. Peter is a dependable peace ambassador whose networks and shares contacts in Kenya and uganda providing EWER reports on time. Peter is well known for his enthusiasm of promoting peace, urge for safe borders and positive interaction among pastoralists"},
   },
    {
     id: 15,
