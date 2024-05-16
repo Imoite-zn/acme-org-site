@@ -5,7 +5,7 @@ import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
 
-const SinglePost = () => {
+const SingleProfile = () => {
   const router = useRouter()
   const { id } = router.query
   const post = teamdata.find((post) => post.id === parseInt(id))
@@ -39,4 +39,4 @@ const SinglePost = () => {
   )
 }
 
-export default SinglePost
+export default SingleProfile
