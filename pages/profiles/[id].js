@@ -17,7 +17,7 @@ const SinglePost = () => {
   return (
     <>
       <Head>
-        <title>{profile.title}</title>
+        <title>{post.title}</title>
       </Head>
       <section className='post-details bg-top'>
         <div className='container'>
