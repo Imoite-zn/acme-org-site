@@ -14,6 +14,7 @@ const Brand = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     slidesToShow: 5,
+    slidesToShow: 5,
   };
     
   return (

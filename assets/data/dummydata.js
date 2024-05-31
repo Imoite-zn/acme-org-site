@@ -232,7 +232,7 @@ export const board = [
   },
   {
     id: 3,
-    title: "Christabel Ekutan",
+    title: "Christabel Abong Ekutan",
     cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
     role: "LOGISTICS AND OFFICE ADMINISTRATOR",
     description:"Abong is a skilled and organized administrative and logistics officer at ACME. With a knack for finding information quickly, she excels at summarizing data, handling inquiries, and coordinating meetings for staff and others.",
