@@ -1,10 +1,26 @@
+import { agency } from "@/assets/data/dummydata"
+import { Agency } from "@/sections"
+import Head from "next/head"
+import { useRouter } from "next/router"
 import Banner from "@/components/Banner"
 import Brand from "@/components/Brand"
 import { Title, TitleSm } from "@/components/common/Title"
 
-const Agency = () => {
+
+const AgencyPage = () => {
+  const router = useRouter()
+  const { id } = router.query
+  const post = agency.find((post) => post.id === parseInt(id))
+  
+  if (!post) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <>
+      <Head>
+        <title>{post.title}</title>
+      </Head>
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -49,4 +65,4 @@ const Agency = () => {
   )
 }
 
-export default Agency
+export default AgencyPage

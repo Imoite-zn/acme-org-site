@@ -2,6 +2,8 @@ import { AiOutlineCalendar } from "react-icons/ai"
 import { TfiRulerPencil } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
 import { FaPeopleGroup } from "react-icons/fa6";
+import { BsSortNumericUpAlt } from "react-icons/bs";
+
 
 export const home = [
   {
@@ -26,25 +28,37 @@ export const expertise = [
     id: 1,
     title: "Community driven Development",
     cover: "../images/community.jpg",
-    desc: [{ text: "Web design" }, { text: "Education" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
   },
   {
     id: 2,
     title: "Water Sanitation and Hygiene",
     cover: "../images/tank.jpg",
-    desc: [{ text: "Water channeling" }, { text: "Irrigation" }, { text: "Water Conservation" }, { text: "Modern hygeine and cleaning" }],
+    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
   },
   {
     id: 3,
     title: "Education",
     cover: "../images/e3.jpg",
-    desc: [{ text: "Health Awareness" }, { text: "Hygiene and Sanitation" }, { text: "Basic education" }, { text: "Communal education" }],
+    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
   },
   {
     id: 4,
     title: "Farming",
     cover: "../images/f2.jpg",
-    desc: [{ text: "Subsistence Farming" }, { text: "Application of Modern Farming Techniques" }, { text: "Farm water management" }],
+    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+  },
+  {
+    id: 5,
+    title: "Resilience",
+    cover: "../images/solar_installation.jpg",
+    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+  },
+  {
+    id: 6,
+    title: "Farming",
+    cover: "../images/f2.jpg",
+    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
   },
 ]
 
@@ -64,7 +78,7 @@ export const showcase = [
   {
     id: 3,
     title: "Habitat improvement",
-    cover: "../images/s3.jpg",
+    cover: "../images/solar_installation.jpg",
     catgeory: "BUILDING",
   },
   {
@@ -90,44 +104,81 @@ export const brand = [
   {
     id: 1,
     cover: "../images/d1.jpg",
+    description: 'partner 1',
   },
   {
     id: 2,
     cover: "../images/d2.jpg",
+    description: 'partner 2',
   },
   {
     id: 3,
     cover: "../images/d3.jpg",
+    description: 'partner 3',
   },
   {
     id: 4,
     cover: "../images/d4.jpg",
+    description: 'partner 4',
   },
   {
     id: 5,
     cover: "../images/d5.jpg",
+    description: 'partner 5',
   },
   {
     id: 6,
     cover: "../images/d6.jpg",
+    description: 'partner 6',
   },
   {
     id: 7,
     cover: "../images/d7.jpg",
+    description: 'partner 7',
   },
   {
     id: 8,
     cover: "../images/d8.jpg",
+    description: 'partner 8',
   },
   {
     id: 9,
     cover: "../images/d9.jpg",
+    description: 'partner 9',
   },
   {
     id: 10,
     cover: "../images/horn-learning-logo.png",
+    description: 'partner 10',
   },
   
+]
+
+export const agency = [
+  {
+    id: 1,
+    title: "Our Mission",
+    cover: "../images/a1.jpg",
+    catgeory: "AGRICULTURE & FOOD SECURITY",
+    date: "JANUARY 12, 2022",
+    description: "ACME targets vulnerable and marginalized members of the community. Also, ACME targets street children/families, displaced persons, and refugees across Kenya - with the aim of alleviating them from poverty and other undignified living conditions. Additionally, ACME seeks to empower multi-dimensionally poor through physical development, nutrition, health, education, child protection, information, water, sanitation and housing. ACME’s current constituency covers Turkana West Sub-County."
+  },
+  {
+    id: 2,
+    title: "Our Core Values",
+    cover: "../images/community.jpg",
+    catgeory: "AGRICULTURE & FOOD SECURITY",
+    date: "JANUARY 12, 2022",
+    description: "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."
+  },
+  {
+    id: 3,
+    title: "Our Goal",
+    cover: "../images/community.jpg",
+    catgeory: "AGRICULTURE & FOOD SECURITY",
+    date: "JANUARY 12, 2022",
+    description: "Acme’s main goal is to contribute towards resolution of the inherent problems that affect the poorest of the poor among them nomadic pastoralists and vulnerable and marginalized groups. These inherent problems are manifested in conflicts, poverty, and inadequate access to water, sanitation and hygiene and a degraded environment."
+  },
 ]
 export const blogdata = [
   {
@@ -163,113 +214,114 @@ export const blogdata = [
     description: "4Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.",
   },
 ]
-export const teamdata = [
+
+export const board = [
   {
     id: 1,
     title: "Whycliffe Ijackaa",
     cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
-    description:{text : "Whycliffe is a Strategic Management and Entrepreneurship Specialist with a bias on Project Cycle Management and M&amp;E. He has working experience in the humanitarian and development sectors. He has a wealth of experience in offering leadership to diverse donor funded projects. He has for almost two decades now worked with the communities in Kenya, Uganda, South Sudan and Ethiopia where he has led the coordination and implementation of programs in Social Services and Infrastructure (Health, Education, Roads and WASH) development, Environment and Natural Resource Management, livelihoods, sports for development, conflict management and peace building. Whycliffe has led and worked with consultants in undertaking different studies in the country and beyond borders in the region including baseline studies and project evaluations. He is well grounded in participatory approaches to project implementation, evaluations, and qualitative research. He is knowledgeable in the area of result-based monitoring and has been involved in undertaking extensive field work in the cross border region mapping and visualization intended to link activities to tangible results; qualitative analysis of program reach, impact, and perception; and strategic assessment and planning to allow implementing partners to better understand roadblocks and enabling factors within programs that he has led. Whycliffe is a trainer of trainers in the Do-No-Harm approach and has practical experience integrating the approach in programs implemented across border the country. He is knowledgeable in PCM, proposal writing, fundraising and reporting of donor funded projects. He is an a CDD enthusiast and an M&amp;E Specialist"},
+    role: "FOUNDER, CEO",
+    description: "Whycliffe is a seasoned humanitarian and development specialist with nearly two decades of experience. He excels in managing projects across various sectors, from social services to conflict resolution. He's an expert in monitoring and evaluation, utilizing participatory approaches to assess project impact. Whycliffe is also passionate about training and is a certified Do-No-Harm trainer",
   },
   {
     id: 2,
     title: "Mark Mulela",
     cover: "../images/Mark Mulela-Finance and Administration Officer.jpg",
-    post: "FINANCE AND ADMINISTRATION",
-    description:{text : "Mark has over twenty years of experience as a financial accountant and is holder of a BSc.(Mathematics) as well as Certified Fraud Examiner (CFE), Certified Information Systems Auditor (CISA) and Certified Public Accountant (CPA) professional certifications. He has extensive hands-on experience in the design, setup and implementation of financial accounting systems, policies and procedures that provide appropriate levels of security and control of organizational assets, resources, and operations. Mark has over 10 years’ experience in multi-donor and multi-programme financial reporting in the NGO field."},
+    role: "FINANCE AND ADMINISTRATION",
+    description: "Mark is a highly qualified financial accountant with over two decades of experience. He holds prestigious certifications (CFE, CISA, CPA) and possesses expertise in designing, implementing, and auditing financial accounting systems. Mark also brings over 10 years of experience in financial reporting for NGOs, particularly in multi-donor and multi-programme environments",
   },
   {
     id: 3,
     title: "Christabel Ekutan",
     cover: "../images/Christabel Ekutan - Logistics and Office Administrator.jpg",
-    post: "LOGISTICS AND OFFICE ADMINISTRATOR",
-    description:"TBA",
+    role: "LOGISTICS AND OFFICE ADMINISTRATOR",
+    description:"Abong is a skilled and organized administrative and logistics officer at ACME. With a knack for finding information quickly, she excels at summarizing data, handling inquiries, and coordinating meetings for staff and others.",
   },
-
   {
     id: 4,
     title: "Davis Wafula",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
-    post: "HEAD OF PROGRAMMES",
-    description:{ text : "A seasoned professional in conflict resolution, peacebuilding, and humanitarian efforts, is dedicated to advancing Gender Equality and Women's Empowerment (GEWE), Food, Water,and Nutrition Security (FWNS), and Humanitarian and Emergency Response initiatives. Holding a Bachelors degree in Conflict Resolution and Peace Building and a Masters in Public Administration and Management, Davis boasts a robust academic foundation. Throughout his career, he has excelled in various leadership roles, from MEARL at Acme Development Organization to key positions in conflict-affected regions such as Turkana, South Sudan, and Uganda. Davis also served as the Team Leader and M&amp;E Specialist for the World Bank Kenya Development Response to Displacement Impacts (KDRDIP) project under Seeds of Peace Africa (SOPA). Notably, as Director of Planning and Development Services with North Karamoja Diocese, he revitalized projects and secured significant donor backing, facilitating reconciliation between conflicted communities. Moreover, as Project Manager with national organizations, Davis successfully managed WASH, food security, and Alternative Dispute Resolution programs across South Sudan;s Eastern Equatoria, Jonglei and Upper Nile states."},
+    role: "HEAD OF PROGRAMMES",
+    description:"Davis is a seasoned professional with a strong background in conflict resolution, peacebuilding, and humanitarian efforts. He's passionate about promoting Gender Equality, Food Security, and Emergency Response initiatives.",
   },
   {
     id: 5,
     title: "Julius Achilla",
     cover: "../images/Julius Achilla-Livelihood Officer.jpg",
-    post: "LIVELIHOOD OFFICER",
-    description:{text : "Achilla is the team lead for the Food Security and Livelihoods Project. He is an accomplished Community Development Specialist with a wealth of experience in Resilience, Climate Change and Livelihoods. As a Senior Officer with ACME, Julius worked in a World Bank funded project specifically on the livelihood’s component targeting individual groups and cooperatives facilitating generation of a database for sub county livelihoods groups and organizations, facilitating entrepreneurship skills, training and guiding the funded groups on records management and feedback. Julius has had over Seven (7) straight years in livelihoods activities with communities and groups in Turkana West and Lokichoggio sub counties under the support of DCA. Mr. Achilla is a trained Social Development Expert who has 15+ years in community driven development that appreciates the community as a driver to the social change desired. He has worked as a research team leader on Donkey Welfare project within the Karamoja cluster countries of Kenya, Uganda, South Sudan and Ethiopia. As head of programs of Achilla has collected data for monitoring and carried out internal evaluation. As a Peace officer Achilla prepared and maintained a conflict management database as recommended by IGAD countries in monitoring conflict dynamics in the entire Karamoja cluster."},
+    role: "LIVELIHOOD OFFICER",
+    description:"Achilla is a highly experienced Community Development Specialist leading the Food Security and Livelihoods Project at ACME. He brings over 15 years of expertise in community-driven development, focusing on resilience, climate change, and livelihoods.",
   },
   {
     id: 6,
     title: "Sharon Epero",
     cover: "../images/Sharon Epero-Environment Officer.jpg",
-    post: "ENVIRONMENT OFFICER",
-    description:"TBA",
+    role: "ENVIRONMENT OFFICER",
+    description:"Sharon is a dedicated field worker from Oropoi, Turkana West, passionate about empowering women in her community.",
   },
   {
     id: 7,
     title: "George Osokaise",
     cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
-    post: "SOCIAL SAFEGUARDS OFFICER",
-    description:{text : "George is a trained political scientist and social development worker who is versed with community needs and challenges as tools needed to hastened development in an area. George has been a researcher for the funded Donkey welfare project research assignment in the four countries of Kenya, Uganda, South Sudan and Ethiopia. He has carried out field work visits to collect data, analysed data and shared data collected with other stakeholders for input and later reported the findings. As a Social Development Specialist for Kenya Development Response Displacement Impact Project, George led the community entry process that ended up in mobilizing communities for project public meetings in the villages, data collection, data preparation, development of Community Development Plans Turkana West sub county. George is well versed with feasibility studies and reports for all natural resources’ related projects that were implemented by KDRDIP. As programmes manager for 7 years at British Council, George took lead in development of project Management, monitoring and Evaluation tools to be used regularly in assessing the progress of the projects done by British Council."},
+    role: "SOCIAL SAFEGUARDS OFFICER",
+    description: "George is a well-rounded professional with experience in both political science and social development. He leverages his understanding of community needs to drive development initiatives.  His background includes research experience on a multi-country project, leading community engagement efforts, and managing project development tools.",
   },
+]
+
+export const members = [
   {
-    id: 8,
+    id: 1,
     title: "Rose Ong'ech",
     cover: "../images/Rose1.jpg",
-    post: "ACCOUNTING MANAGER",
-    description:{text : "Rose has over 10 years of hands- on working experience in Project Cycle Management, community-based research, and monitoring and evaluation in multi-cultural settings. She has a wealth of experience working with communities in the cross-border areas of Kenya, Uganda and South Sudan where she has coordinated and implemented projects on food security, livelihoods, sports for development, conflict management and peacebuilding in conflict and post-conflict areas. Rose has been Co-Investigator for mid- term, process, and end line evaluation consultancies funded by Global Fund, Centre for Health Solutions (CHS) and Bread for the World, International Cooperation for Sustainable Development (GIZ). Co-Investigator for the Kenya Red Cross Society Mid-term and Final Evaluation of Cash Plus Project to reduce the vulnerability of Adolescent Girls &amp; Young Women (AGYW) to HIV/AIDS in Kilifi, Turkana, Siaya, Kisii, and Machakos counties. Rose has just recently concluded data analysis consultancy for Reproductive, Maternal, New-born, Child, Adolescents and Health (RMNCAH) framework evaluation in Embu &amp; Narok Counties and Adolescent and Sexual Reproductive Health Policy for African Population Health and Research Centre (APHRC)"},
+    role: "ACCOUNTING MANAGER",
+    description: "Rose is a highly experienced development professional with over 10 years in project management, community research, and monitoring and evaluation, especially in areas with diverse cultures. She has a strong track record working across borders in Kenya, Uganda, and South Sudan on crucial issues like food security, livelihoods, and peacebuilding.  Beyond project implementation, Rose demonstrates expertise in research, having served as a Co-Investigator for evaluations on critical health topics funded by well-respected organizations. Her recent data analysis consultancy further showcases her diverse skillset within the health sector.",
   },
-
   {
-    id: 9,
+    id: 2,
     title: "John Imoite",
     cover: "../images/John Imoite.png",
-    post: "CIVIC EDUCATION SPECIALIST",
-    description:{text: "A development practitioner with a bias in civic education on the constitution and the responsibilities of citizens towards their core mandates. This has put his ambitions on elected leadership with responsibility. He also doubles up as an advisor for the various capacity building initiatives for the NGO sector in the areas of service provision. This is specific to the enabling environment of support structures such as interpersonal skills, problem solving abilities, teamwork and leadership for proper service delivery. He provides capacity in response to rules, directives, policies, regulations and laws in order of boosting compliance levels. He provides organizational capacity development and management of gender streamlining in the societal institutions."},
+    role: "CIVIC EDUCATION SPECIALIST",
+    description: "John is a civic engagement expert passionate about educating citizens on their rights and responsibilities under the constitution. He aims to leverage this expertise in elected leadership. John also acts as a capacity-building advisor for NGOs, focusing on improving service delivery through better teamwork, communication, and adherence to regulations. Additionally, he promotes gender equality within organizations.",
   },
   {
-    id: 10,
+    id: 3,
     title: "Grace Nasike",
     cover: "../images/Nasike Treasurer.jpg",
-    post: "MEDICAL DOCTOR & TREASURER",
-    description:{text: "A medic with a demonstrated passion for the wholesome health of project beneficiaries and possesses history of working in non- governmental organizations with a focus in public policy, gender mainstreaming, policy analysis, strategic planning, project management, resource mobilization, Public Private Partnerships in the humanitarian world and sexual and reproductive health rights. Grace is currently finalizing her undergraduate course in Bachelor of Medicine and Bachelor of Surgery and has had more interaction with actual public health issues affecting community members related to challenges in service access, commodities and availability of equipment meant to provide the services at grassroots level. This coupled with her youthful age provides the board with the impetus to address issues attendant to Adolescent girls and young women with ease."},
+    role: "MEDICAL DOCTOR & TREASURER",
+    description: "Grace is a passionate medical student with a strong background in public health.  She has experience working in NGOs on issues like gender equality, policy analysis, and project management. Her focus on sexual and reproductive health rights and her experience with community health challenges make her uniquely qualified to address the needs of adolescent girls and young women.",
   },
   {
-    id: 11,
+    id: 4,
     title: "Bernard Arii",
     cover: "../images/Ekidor Secretary.jpg",
-    post: "SECRETARY",
-    description:{text: "He provides technical implementation and support to livelihoods and household economic strengthening work at the field level. He develops, leads, provides inputs for research and learning, monitors and evaluates the livelihood aspects of projects. He designs scalable food security and nutrition sensitive solutions to expand livelihood strategies through resilient livelihoods, markets and natural resource management.Bernard provides technical implementation and support to livelihoods and household economic strengthening work. He provides strategic leadership, mentors, coaches and leads focused and result-oriented team. He supports formulation, design and implementation of food security and nutrition policy"},
+    role: "SECRETARY",
+    description:"Bernard is a livelihoods and food security specialist with experience in providing technical support and leadership at the field level. He excels in developing, implementing, and evaluating projects that strengthen livelihoods and household economies.  Bernard focuses on designing scalable solutions that promote resilient livelihoods, strong markets, and sustainable natural resource management. He also demonstrates strong leadership skills, mentoring and coaching teams to achieve results.",
   },
-
   {
-    id: 12,
+    id: 5,
     title: "Halima Duba",
     cover: "../images/Halima Member.jpg",
-    post: "EDUCATION SPECIALIST",
-    description:{text: "Education is not preparation for life but life itself. She is an educationist with a current contextual base within the Refugee and host community of Turkana. She has ground knowledge and experience of life within the camps with refugees and among the host community as their teacher. She has lived the life of a refugee host community member and schooled within the host community set up. She is a child protector and vocal person in the refugee camps and host community and Identifies vulnerable adolescent girls for allocation and provision of life’s necessities such as sanitary towels. As a teacher she is both the trainer and the parent to the learners within the camps and among the host community. She is a supporter of community driven development and has done part time development work providing services and infrastructure to the community. She is the community development trainer and worker."},
+    role: "EDUCATION SPECIALIST",
+    description:"Halima is a dedicated educator with firsthand experience living and working within both the refugee camps and host community of Turkana.  She brings a deep understanding of the challenges faced by both groups and a passion for child protection, particularly advocating for the needs of adolescent girls. Halima serves as both a teacher and mentor to her students, and her commitment extends beyond the classroom as she supports community-driven development initiatives",
   },
   {
-    id: 13,
+    id: 6,
     title: "Joyce Enyakai",
     cover: "../images/Joyce1.jpg",
-    post: "CHAIRLADY & HR SPECIALIST",
-    description:{text: "A proficient Human Resources professional with over 12 years of experience committed to using her skills to deliver required results in an environment where achievement is a daily expectation. To further her career within the limits of human resources policies, to provide a full human resources service to line management and to provide a framework for maintaining good relationships between management and staff. As a pioneer board chair of Acme, she is encouraged by continuous professional consultation. She has experience in reviewing HR policies, Terms of employment and Code of conduct of the organization. She possesses experience using Human Resources Information systems (HRIS) and on restructuring of the organization involving job analysis, pay grade review and reviewing job descriptions."},
+    role: "CHAIRLADY & HR SPECIALIST",
+    description: "Joyce is a highly skilled HR professional with over 12 years of experience. She thrives in fast-paced environments and is dedicated to achieving results. Her expertise covers the full spectrum of HR functions, from policy development and implementation to fostering positive working relationships.  Joyce demonstrates strong analytical skills through her experience reviewing and updating HR documents and her involvement in organizational restructuring initiatives",
   },
    {
-    id: 14,
+    id: 7,
     title: "Peter Akamu",
     cover: "../images/Peter Akamu-Peacebuilding Officer.jpg",
-    post: "PEACE BUILDING OFFICER",
-    description:{text: "TBA"},
+    role: "PEACE BUILDING OFFICER",
+    description:"Akamu Peter is a veteran peacebuilder with extensive experience in conflict resolution and transformation in Kenya and Uganda.  He is a reliable source of information, consistently providing timely Early Warning Early Response (EWER) reports.  Peter is recognized for his passion for peacebuilding, advocating for secure borders and fostering positive relationships among pastoral communities.",
   },
    {
-    id: 15,
+    id: 8,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
-    post: "VOLUNTEERING",
-    description:[{text: "Join Us Today"},{text: "Are You Ready To Make A Change?"},{text: "Send Us An Inquiry Now"},],
+    role: "VOLUNTEERING",
+    description: "Join Us Today. Are You Ready To Make A Change? Send Us An Inquiry Now",
   },
 ]

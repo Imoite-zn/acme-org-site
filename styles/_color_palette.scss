@@ -1,9 +1,9 @@
-$indigo: #5c99c5;
+$indigo: hsl(220, 76%, 34%);
 $white: #080e10;
 $dark: #fff;
 $green: #8ec63f;
-$gradient: linear-gradient(203deg, rgb(90, 255, 244) 0%, rgb(39, 158, 148) 100%);
-$gradient2: linear-gradient(250deg, rgb(85, 170, 255) 24%, rgba(52, 108, 255, 1) 100%);
+$gradient: linear-gradient(203deg, hsl(220, 76%, 34%) 0%, rgb(58, 100, 216) 100%);
+$gradient2: linear-gradient(250deg, rgb(85, 170, 255) 24%, rgb(177, 198, 253) 100%);
 
 .green {
   color: $green;

@@ -4,7 +4,7 @@ import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 
-const Blog = () => {
+const Partner = () => {
   return (
     <>
       <section className='agency bg-top'>

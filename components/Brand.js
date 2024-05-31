@@ -9,11 +9,11 @@ import 'slick-carousel/slick/slick-theme.css';
 const Brand = () => {
 
   const settings =  {
-    dots: true,
     infinite: true,
     speed: 500,    
     autoplay: true,
     autoplaySpeed: 3000,
+    slidesToShow: 5,
   };
     
   return (
@@ -23,16 +23,15 @@ const Brand = () => {
          <div className='heading-title'>
             <Title title='OUR PARTNERS' />
           </div>
-    <Slider {...settings}>
-          <div className='grid-4 py'>
+    <Slider {...settings} className="py">
            {brand.map((item) => (
               <div className='images' key={item.id}>
-                <img src={item.cover} alt={item.id} width='100%' height='auto' />
+              <img src={item.cover} alt={item.id} width='100%' height='auto' />
               </div>
             ))}
-              </div>
     </Slider>     
         </div>
+
       </section> 
     </>
   )

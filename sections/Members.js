@@ -1,20 +1,20 @@
-import { board } from "@/assets/data/dummydata"
+import { members } from "@/assets/data/dummydata"
 import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 
-const Team = () => {
+const Members = () => {
   return (
     <>
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='MEET OUR BOARD' /> <br />
+            <TitleSm title='MEET OUR MEMBERS' /> <br />
             <br />
             <Title title='A team of smart & passionate creatives' className='title-bg' />
           </div>
           <div className='grid-4 py'>
-            {board.map((item) => (
+            {members.map((item) => (
               <Card data={item} key={item.id} caption={item.role} path='profiles' />
             ))}
           </div>
@@ -24,4 +24,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default Members

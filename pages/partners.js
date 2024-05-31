@@ -1,4 +1,5 @@
-import { Blog } from "@/sections"
+import { Partners } from "@/sections"
+import PageLoader from "next/dist/client/page-loader"
 import Head from "next/head"
 
 const Blogs = () => {
@@ -7,7 +8,7 @@ const Blogs = () => {
       <Head>
         <title>Blog - acmekenya.org</title>
       </Head>
-      <Blog />
+      <Partners />
     </>
   )
 }

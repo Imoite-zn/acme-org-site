@@ -7,6 +7,14 @@ import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 import { IoLogoWhatsapp } from "react-icons/io";
 
+const sendMail = () => {
+  var link = "mailto:zennylorenz@gmail.com"
+             + "&subject=" + encodeURIComponent("This is my subject")
+             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+    ;
+    
+    window.location.href = link;
+}
 const Contact = () => {
   return (
     <>
@@ -60,7 +68,7 @@ const Contact = () => {
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Fill out the form below to get our proposal. </p>
 
-              <form>
+              <form action="mailto:zennylorenz@gmail.com" method="post" enctype="text/plain">
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
@@ -79,9 +87,9 @@ const Contact = () => {
                 </div>
                 <div className='inputs'>
                   <span>INQUIRY | INFORM US HERE</span>
-                  <textarea cols='30' rows='10'></textarea>
+                  <textarea id="myText" cols='30' rows='10'></textarea>
                 </div>
-                <button className='button-primary'>Submit</button>
+                <button type="submit" className='button-primary' >Submit</button>
               </form>
             </div>
           </div>
