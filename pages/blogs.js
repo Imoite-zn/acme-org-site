@@ -1,4 +1,4 @@
-import { Blog } from "@/sections"
+import { Blogs } from "@/sections"
 import PageLoader from "next/dist/client/page-loader"
 import Head from "next/head"
 
