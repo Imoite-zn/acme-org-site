@@ -138,9 +138,8 @@
   .card {
     @include flex(none, space-between, none);
     .card-img {
-      // width: 40%;
-      // height: 250px;
-      object-fit: contain;
+      height: 100pxpx;
+      object-fit: scale-down;
     }
     .card-details {
       width: 55%;
