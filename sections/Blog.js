@@ -11,7 +11,7 @@ const Blog = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='BLOG' /> <br />
+            <TitleSm title='PARTNERS' /> <br />
             <br />
             <Title title='IMPROVING QUALITY OF LIFE' />
           </div>

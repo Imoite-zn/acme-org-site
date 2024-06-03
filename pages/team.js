@@ -1,16 +1,8 @@
-import { Team } from "@/sections"
-import Head from "next/head"
-import React from "react"
+// pages/team.js
+import Team from '../sections/Team';
 
-const team = () => {
-  return (
-    <>
-      <Head>
-        <title>Team - ACME</title>
-      </Head>
-      <Team />
-    </>
-  )
-}
+const TeamPage = () => {
+  return <Team />;
+};
 
-export default team
+export default TeamPage;

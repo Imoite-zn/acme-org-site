@@ -1,7 +1,7 @@
-import { board } from "@/assets/data/dummydata"
-import { Card } from "@/components/common/Card"
-import { Title, TitleSm } from "@/components/common/Title"
-import React from "react"
+import { board } from "@/assets/data/dummydata";
+import { Card } from "@/components/common/Card";
+import { Title, TitleSm } from "@/components/common/Title";
+import React from "react";
 
 const Team = () => {
   return (
@@ -21,7 +21,7 @@ const Team = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Team
+export default Team;

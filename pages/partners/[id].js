@@ -1,16 +1,14 @@
-import { board, members } from "@/assets/data/dummydata"
+import { brand } from "@/assets/data/dummydata"
 import Banner from "@/components/Banner"
 import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
 
-const SingleProfile = () => {
+const SinglePartner = () => {
   const router = useRouter()
   const { id } = router.query
-
-  const postId = parseInt(id);
-  const post = board.find((post) => post.id === postId) || members.find((post) => post.id === postId);
+  const post = brand.find((post) => post.id === parseInt(id))
   
   if (!post) {
     return <div>Loading...</div>;
@@ -23,25 +21,22 @@ const SingleProfile = () => {
       </Head>
       <section className='post-details bg-top'>
         <div className='container'>
-          <div className='heading-title'>
-            <Title title='Our Team' /> <br />
+          <div className='heading-title'>            
             <br />
-            <Title title={post.role} className='title-bg' />
+            <Title title={post.title} className='title-bg' />
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
-            <br />
-            <Title title={post.title} className='title-bg' />
-            <div className='profiles-page'>
+            <div className='desc'>
               <TitleSm title={post.description} />
-
             </div>
           </div>
           <Banner />
         </div>
+        <br />
       </section>
     </>
   )
 }
 
-export default SingleProfile
+export default SinglePartner

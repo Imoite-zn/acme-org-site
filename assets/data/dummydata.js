@@ -103,51 +103,61 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
+    title: "partner 1" ,
     cover: "../images/d1.jpg",
-    description: 'partner 1',
+    description: 'Phasellus nec tempor neque. In nec finibus lorem',
   },
   {
     id: 2,
+    title: "partner 2",
     cover: "../images/d2.jpg",
-    description: 'partner 2',
+    description: 'part',
   },
   {
     id: 3,
+    title: "partner 3",
     cover: "../images/d3.jpg",
     description: 'partner 3',
   },
   {
     id: 4,
+    title: "partner 4",
     cover: "../images/d4.jpg",
     description: 'partner 4',
   },
   {
     id: 5,
+    title: "partner 5",
     cover: "../images/d5.jpg",
     description: 'partner 5',
   },
   {
     id: 6,
+    title: "partner 6",
     cover: "../images/d6.jpg",
     description: 'partner 6',
   },
   {
     id: 7,
+    title: "partner 7",
     cover: "../images/d7.jpg",
     description: 'partner 7',
   },
   {
     id: 8,
+    title: "partner 8",
     cover: "../images/d8.jpg",
     description: 'partner 8',
   },
   {
     id: 9,
+    title: "partner 9",
     cover: "../images/d9.jpg",
     description: 'partner 9',
   },
   {
     id: 10,
+    title: "partner 10",
     cover: "../images/horn-learning-logo.png",
     description: 'partner 10',
   },

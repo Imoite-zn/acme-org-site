@@ -1,6 +1,6 @@
-import Link from "next/link"
-import { TitleSm } from "./Title"
-import { HiOutlineArrowRight } from "react-icons/hi"
+import Link from "next/link";
+import { TitleSm } from "./Title";
+import { HiOutlineArrowRight } from "react-icons/hi";
 
 export const Card = ({ data, caption, show, path }) => {
   return (
@@ -19,10 +19,10 @@ export const Card = ({ data, caption, show, path }) => {
             </Link>
           )}
           <div className='flex'>
-            <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}
+            <span> {data.category} </span> {data.date && <span> / {data.date}</span>}
           </div>
 
-          {show && (
+          {show && data.desc && (
             <ul>
               {data.desc.map((text, i) => (
                 <li key={i}> - {text.text}</li>
@@ -32,5 +32,5 @@ export const Card = ({ data, caption, show, path }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
