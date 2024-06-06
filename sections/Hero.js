@@ -2,11 +2,12 @@ import { home } from "@/assets/data/dummydata"
 import Banner from "@/components/Banner"
 import Expertise from "@/components/Expertise"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
-import { BlogCard, Brand } from "@/components/router"
+import { Brand } from "@/components/router"
 import React from "react"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import DisplayCard from "@/components/DisplayCard"
 
 
 const Hero = () => {
@@ -60,7 +61,7 @@ const Hero = () => {
       <div className='text-center'>
         <Title title='Latest news & articles' />
       </div>
-      <BlogCard />
+      <DisplayCard />
     </>
   )
 }

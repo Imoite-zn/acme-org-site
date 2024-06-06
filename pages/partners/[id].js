@@ -25,7 +25,7 @@ const SinglePartner = () => {
             <br />
             <Title title={post.title} className='title-bg' />
             <div className='img py'>
-              <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
+              <img src={post.cover} alt={post.title} width='30%' height='40%' />
             </div>
             <div className='desc'>
               <TitleSm title={post.description} />

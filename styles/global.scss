@@ -139,7 +139,7 @@
     @include flex(none, space-between, none);
     .card-img {
       height: 100pxpx;
-      object-fit: scale-down;
+      object-fit: fill;
     }
     .card-details {
       width: 55%;
@@ -370,4 +370,10 @@ footer {
       flex-direction: column;
     }
   }
+}
+
+//Partners Page
+.p_hover:hover{
+  height: 160px;
+  width: 270px
 }
