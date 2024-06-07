@@ -1,5 +1,4 @@
 import { agency } from "@/assets/data/dummydata"
-import { Agency } from "@/sections"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import Banner from "@/components/Banner"
@@ -31,7 +30,7 @@ const AgencyPage = () => {
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Our Goal' />
+              <TitleSm title={post.title} />
               <p className='desc-p'>{post.description}</p>
               <div className='grid-3'>
                 <div className='box'>

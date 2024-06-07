@@ -2,7 +2,6 @@ import { AiOutlineCalendar } from "react-icons/ai"
 import { TfiRulerPencil } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
 import { FaPeopleGroup } from "react-icons/fa6";
-import { BsSortNumericUpAlt } from "react-icons/bs";
 
 
 export const home = [
@@ -167,6 +166,14 @@ export const brand = [
 export const agency = [
   {
     id: 1,
+    title: "Our Vision",
+    cover: "../images/a1.jpg",
+    catgeory: "AGRICULTURE & FOOD SECURITY",
+    date: "JANUARY 12, 2022",
+    description: "An Empowered and Dignified Society"
+  },
+  {
+    id: 2,
     title: "Our Mission",
     cover: "../images/a1.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
@@ -174,7 +181,7 @@ export const agency = [
     description: "ACME targets vulnerable and marginalized members of the community. Also, ACME targets street children/families, displaced persons, and refugees across Kenya - with the aim of alleviating them from poverty and other undignified living conditions. Additionally, ACME seeks to empower multi-dimensionally poor through physical development, nutrition, health, education, child protection, information, water, sanitation and housing. ACME’s current constituency covers Turkana West Sub-County."
   },
   {
-    id: 2,
+    id: 3,
     title: "Our Core Values",
     cover: "../images/community.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
@@ -182,7 +189,7 @@ export const agency = [
     description: "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."
   },
   {
-    id: 3,
+    id: 4,
     title: "Our Goal",
     cover: "../images/community.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
@@ -235,6 +242,51 @@ export const board = [
   },
   {
     id: 2,
+    title: "Joyce Enyakai",
+    cover: "../images/Joyce1.jpg",
+    role: "CHAIRLADY & HR SPECIALIST",
+    description: "Joyce is a highly skilled HR professional with over 12 years of experience. She thrives in fast-paced environments and is dedicated to achieving results. Her expertise covers the full spectrum of HR functions, from policy development and implementation to fostering positive working relationships.  Joyce demonstrates strong analytical skills through her experience reviewing and updating HR documents and her involvement in organizational restructuring initiatives",
+  },
+  {
+    id: 3,
+    title: "Bernard Arii",
+    cover: "../images/Ekidor Secretary.jpg",
+    role: "SECRETARY",
+    description:"Bernard is a livelihoods and food security specialist with experience in providing technical support and leadership at the field level. He excels in developing, implementing, and evaluating projects that strengthen livelihoods and household economies.  Bernard focuses on designing scalable solutions that promote resilient livelihoods, strong markets, and sustainable natural resource management. He also demonstrates strong leadership skills, mentoring and coaching teams to achieve results.",
+  },
+  {
+    id: 4,
+    title: "Halima Duba",
+    cover: "../images/Halima Member.jpg",
+    role: "EDUCATION SPECIALIST",
+    description:"Halima is a dedicated educator with firsthand experience living and working within both the refugee camps and host community of Turkana.  She brings a deep understanding of the challenges faced by both groups and a passion for child protection, particularly advocating for the needs of adolescent girls. Halima serves as both a teacher and mentor to her students, and her commitment extends beyond the classroom as she supports community-driven development initiatives",
+  },
+  {
+    id: 5,
+    title: "John Imoite",
+    cover: "../images/John Imoite.png",
+    role: "CIVIC EDUCATION SPECIALIST",
+    description: "John is a civic engagement expert passionate about educating citizens on their rights and responsibilities under the constitution. He aims to leverage this expertise in elected leadership. John also acts as a capacity-building advisor for NGOs, focusing on improving service delivery through better teamwork, communication, and adherence to regulations. Additionally, he promotes gender equality within organizations.",
+  },
+  {
+    id: 6,
+    title: "Grace Nasike",
+    cover: "../images/Nasike Treasurer.jpg",
+    role: "MEDICAL DOCTOR & TREASURER",
+    description: "Grace is a passionate medical student with a strong background in public health.  She has experience working in NGOs on issues like gender equality, policy analysis, and project management. Her focus on sexual and reproductive health rights and her experience with community health challenges make her uniquely qualified to address the needs of adolescent girls and young women.",
+  },
+]
+
+export const members = [
+  {
+    id: 1,
+    title: "Rose Ong'ech",
+    cover: "../images/Rose1.jpg",
+    role: "ACCOUNTING MANAGER",
+    description: "Rose is a highly experienced development professional with over 10 years in project management, community research, and monitoring and evaluation, especially in areas with diverse cultures. She has a strong track record working across borders in Kenya, Uganda, and South Sudan on crucial issues like food security, livelihoods, and peacebuilding.  Beyond project implementation, Rose demonstrates expertise in research, having served as a Co-Investigator for evaluations on critical health topics funded by well-respected organizations. Her recent data analysis consultancy further showcases her diverse skillset within the health sector.",
+  },
+  {
+    id: 2,
     title: "Mark Mulela",
     cover: "../images/Mark Mulela-Finance and Administration Officer.jpg",
     role: "FINANCE AND ADMINISTRATION",
@@ -248,11 +300,11 @@ export const board = [
     description:"Abong is a skilled and organized administrative and logistics officer at ACME. With a knack for finding information quickly, she excels at summarizing data, handling inquiries, and coordinating meetings for staff and others.",
   },
   {
-    id: 4,
-    title: "Davis Wafula",
-    cover: "../images/Davis Wafula-Head of Programmes.jpg",
-    role: "HEAD OF PROGRAMMES",
-    description:"Davis is a seasoned professional with a strong background in conflict resolution, peacebuilding, and humanitarian efforts. He's passionate about promoting Gender Equality, Food Security, and Emergency Response initiatives.",
+      id: 4,
+      title: "George Osokaise",
+      cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
+      role: "SOCIAL SAFEGUARDS OFFICER",
+      description: "George is a well-rounded professional with experience in both political science and social development. He leverages his understanding of community needs to drive development initiatives.  His background includes research experience on a multi-country project, leading community engagement efforts, and managing project development tools.",
   },
   {
     id: 5,
@@ -268,58 +320,6 @@ export const board = [
     role: "ENVIRONMENT OFFICER",
     description:"Sharon is a dedicated field worker from Oropoi, Turkana West, passionate about empowering women in her community.",
   },
-  {
-    id: 7,
-    title: "George Osokaise",
-    cover: "../images/George Osokaise - Social Safeguards Officer.jpeg",
-    role: "SOCIAL SAFEGUARDS OFFICER",
-    description: "George is a well-rounded professional with experience in both political science and social development. He leverages his understanding of community needs to drive development initiatives.  His background includes research experience on a multi-country project, leading community engagement efforts, and managing project development tools.",
-  },
-]
-
-export const members = [
-  {
-    id: 1,
-    title: "Rose Ong'ech",
-    cover: "../images/Rose1.jpg",
-    role: "ACCOUNTING MANAGER",
-    description: "Rose is a highly experienced development professional with over 10 years in project management, community research, and monitoring and evaluation, especially in areas with diverse cultures. She has a strong track record working across borders in Kenya, Uganda, and South Sudan on crucial issues like food security, livelihoods, and peacebuilding.  Beyond project implementation, Rose demonstrates expertise in research, having served as a Co-Investigator for evaluations on critical health topics funded by well-respected organizations. Her recent data analysis consultancy further showcases her diverse skillset within the health sector.",
-  },
-  {
-    id: 2,
-    title: "John Imoite",
-    cover: "../images/John Imoite.png",
-    role: "CIVIC EDUCATION SPECIALIST",
-    description: "John is a civic engagement expert passionate about educating citizens on their rights and responsibilities under the constitution. He aims to leverage this expertise in elected leadership. John also acts as a capacity-building advisor for NGOs, focusing on improving service delivery through better teamwork, communication, and adherence to regulations. Additionally, he promotes gender equality within organizations.",
-  },
-  {
-    id: 3,
-    title: "Grace Nasike",
-    cover: "../images/Nasike Treasurer.jpg",
-    role: "MEDICAL DOCTOR & TREASURER",
-    description: "Grace is a passionate medical student with a strong background in public health.  She has experience working in NGOs on issues like gender equality, policy analysis, and project management. Her focus on sexual and reproductive health rights and her experience with community health challenges make her uniquely qualified to address the needs of adolescent girls and young women.",
-  },
-  {
-    id: 4,
-    title: "Bernard Arii",
-    cover: "../images/Ekidor Secretary.jpg",
-    role: "SECRETARY",
-    description:"Bernard is a livelihoods and food security specialist with experience in providing technical support and leadership at the field level. He excels in developing, implementing, and evaluating projects that strengthen livelihoods and household economies.  Bernard focuses on designing scalable solutions that promote resilient livelihoods, strong markets, and sustainable natural resource management. He also demonstrates strong leadership skills, mentoring and coaching teams to achieve results.",
-  },
-  {
-    id: 5,
-    title: "Halima Duba",
-    cover: "../images/Halima Member.jpg",
-    role: "EDUCATION SPECIALIST",
-    description:"Halima is a dedicated educator with firsthand experience living and working within both the refugee camps and host community of Turkana.  She brings a deep understanding of the challenges faced by both groups and a passion for child protection, particularly advocating for the needs of adolescent girls. Halima serves as both a teacher and mentor to her students, and her commitment extends beyond the classroom as she supports community-driven development initiatives",
-  },
-  {
-    id: 6,
-    title: "Joyce Enyakai",
-    cover: "../images/Joyce1.jpg",
-    role: "CHAIRLADY & HR SPECIALIST",
-    description: "Joyce is a highly skilled HR professional with over 12 years of experience. She thrives in fast-paced environments and is dedicated to achieving results. Her expertise covers the full spectrum of HR functions, from policy development and implementation to fostering positive working relationships.  Joyce demonstrates strong analytical skills through her experience reviewing and updating HR documents and her involvement in organizational restructuring initiatives",
-  },
    {
     id: 7,
     title: "Peter Akamu",
@@ -327,8 +327,15 @@ export const members = [
     role: "PEACE BUILDING OFFICER",
     description:"Akamu Peter is a veteran peacebuilder with extensive experience in conflict resolution and transformation in Kenya and Uganda.  He is a reliable source of information, consistently providing timely Early Warning Early Response (EWER) reports.  Peter is recognized for his passion for peacebuilding, advocating for secure borders and fostering positive relationships among pastoral communities.",
   },
-   {
+  {
     id: 8,
+    title: "Davis Wafula",
+    cover: "../images/Davis Wafula-Head of Programmes.jpg",
+    role: "HEAD OF PROGRAMMES",
+    description:"Davis is a seasoned professional with a strong background in conflict resolution, peacebuilding, and humanitarian efforts. He's passionate about promoting Gender Equality, Food Security, and Emergency Response initiatives.",
+  },
+   {
+    id: 9,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     role: "VOLUNTEERING",

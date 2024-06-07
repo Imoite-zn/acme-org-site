@@ -34,9 +34,10 @@ const Header = () => {
                 WHO WE ARE
               </Link>
               <div className="dropdown-content">
-                  <Link href='/agency/1'>MISSION</Link>
-                  <Link href='/agency/2'>CORE VALUES</Link>
-                  <Link href='/agency/3'>GOAL</Link>
+                  <Link href='/agency/1'>VISION</Link>
+                  <Link href='/agency/2'>MISSION</Link>
+                  <Link href='/agency/3'>CORE VALUES</Link>
+                  <Link href='/agency/4'>GOAL</Link>
               </div>
             </div>
             
