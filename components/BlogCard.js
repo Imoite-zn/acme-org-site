@@ -1,5 +1,4 @@
 import React from "react"
-import { Card } from "./common/Card"
 import { brand } from "@/assets/data/dummydata"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';

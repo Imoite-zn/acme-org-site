@@ -68,12 +68,7 @@ nav ul li:hover {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 10px;
-  transition:
-              width 2s,
-              height 2s,
-              background-color 2s,
-              rotate 2s;
-              
+  animation: animateFromBottom .3s;            
 }
 .dropdown-content a {
   color: black;

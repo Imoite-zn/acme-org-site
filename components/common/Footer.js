@@ -27,16 +27,13 @@ const Footer = () => {
             <ul>
               <h3>QUICK LINKS</h3>
               <li>
-                <Link href='/'>Who We Are</Link>
+                <Link href='/agency'>Who We Are</Link>
               </li>
               <li>
                 <Link href='/team'>Our Team</Link>
               </li>
               <li>
-                <Link href='/'>Our Partners</Link>
-              </li>
-              <li>
-                <Link href='/blogs'>Blog</Link>
+                <Link href='/blogs'>Our Partners</Link>
               </li>
               <li>
                 <Link href='/contact'>Contact</Link>
@@ -45,16 +42,16 @@ const Footer = () => {
             <ul>
               <h3>WHAT WE DO</h3>
               <li>
-                <Link href='/'>Environmental Conservation</Link>
+                <Link href='/services/3'>Environmental Conservation</Link>
               </li>
               <li>
-                <Link href='/'>Community Driven Development</Link>
+                <Link href='/services/4'>Community Driven Development</Link>
               </li>
               <li>
-                <Link href='/'>Capacity Building</Link>
+                <Link href='/services/2'>Capacity Building</Link>
               </li>
               <li>
-                <Link href='/'>Resilience and Self-Reliance</Link>
+                <Link href='/services/5'>Resilience and Self-Reliance</Link>
               </li>
             </ul>
             <ul>
