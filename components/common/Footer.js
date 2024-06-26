@@ -57,17 +57,17 @@ const Footer = () => {
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
-                <li>
+                <li >
                   <Link href='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ATuJsjwmSp3e_RWgO-K9pbjvZdjVJepcTVRmrwcPYoKAvNsd-hDvAWdyYaYuTMfwASlm-beHRX4S&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1829073680%3A1709993330083450&theme=mn'>
                     <IoIosMailOpen size={25} />
                   </Link>
                 </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillInstagram size={25} />
+                <li className='icon fb-ic'>
+                  <Link href={'https://web.facebook.com/100079465344233/'}>
+                    <BsFacebook size={25}  />
                   </Link>
                 </li>
-                <li>
+                <li className="wa-ic">
                   <Link href='https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'>
                     <IoLogoWhatsapp size={25} />
                   </Link>

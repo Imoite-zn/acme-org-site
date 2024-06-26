@@ -29,18 +29,10 @@ const Header = () => {
             <Link href='/' className={activeLink == "/"? "activeLink" : "none"}>
               HOME
             </Link>
-            <div className="dropdown">
+            
               <Link href='/agency' className={activeLink == "/agency"? "activeLink" : "none"}>
                 WHO WE ARE
               </Link>
-              <div className="dropdown-content">
-                  <Link href='/agency/1'>VISION</Link>
-                  <Link href='/agency/2'>MISSION</Link>
-                  <Link href='/agency/3'>CORE VALUES</Link>
-                  <Link href='/agency/4'>GOAL</Link>
-              </div>
-            </div>
-            
             <div className="dropdown">
               <Link href='/team' className={activeLink == "/team"? "activeLink" : "none"}>
                 TEAM

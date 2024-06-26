@@ -42,9 +42,22 @@
     background-color: $dark;
     filter: blur(20px);
   }
-  .heading-title-section{
-    width: 80%;
+  .container{
+    .heading-title-section{
+      width: 80%;
+      background : #343f47;
+    }
+    .hero-sec-title{
+      color: #343f47;
+      font-weight: 600;
+    }
+    .heading-title-content{
+      background-color: #F5F5F5;
+      padding: 10px;
+      line-height: 2;
+    }
   }
+  
 }
 
 // expertise
@@ -154,6 +167,7 @@ footer {
   padding: $xll-3 0 0 0;
   border-top: 1px solid rgba($white, 0.2);
   overflow: hidden;
+  background: #F5F5F5;
   .logobg {
     line-height: 0;
     padding-top: $xl-1;
@@ -276,7 +290,7 @@ footer {
   .right {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background-color: hsl(220, 76%, 34%);
+    background: url('../public/images/hero-turks.jpg') no-repeat ;
     form {
       margin-top: $xll;
     }
@@ -376,4 +390,47 @@ footer {
 .p_hover:hover{
   height: 160px;
   width: 270px
+}
+
+.heading-title-vp{
+  background: url('../public/images/event-2.jpg');
+  background-position: bottom ;
+  background-size: cover;
+}
+
+
+// Contact page Links
+.fb-ic :hover{
+  color: #5c99c5;
+  size: 30px;
+
+}
+
+.wa-ic :hover{
+  color: green;
+  size: 30px;
+}
+.ig-ic :hover{
+  color: rgb(127, 38, 176);
+  size: 30px;
+}
+.li-ic :hover{
+  color: rgb(79, 101, 211);
+  size: 30px;
+}
+
+// Agency
+.cv-sect {
+  background:url('../public/images/event-2.jpg') no-repeat;
+  background-size: contain;
+  height: 60vh;
+  padding: 5%;
+  margin: auto;
+}
+.core-v-section{
+  padding: 10px;
+  margin: auto;
+  line-height: 2.5;
+  height: 40vh;
+  width: auto;
 }

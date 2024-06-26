@@ -24,7 +24,6 @@ const SingleService = () => {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='WHAT WE DO' /> <br />
             <br />
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />

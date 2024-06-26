@@ -4,7 +4,7 @@ header {
   position: sticky;
   top: 0;
   // backdrop-filter: blur(10px);
-  background-color: #fff;
+  background: #F5F5F5;
   z-index: 999;
   .container {
     @include flex(center, space-between, none);

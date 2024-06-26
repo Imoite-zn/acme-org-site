@@ -1,11 +1,12 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 import { IoLogoWhatsapp } from "react-icons/io";
+import Link from "next/link"
 
 const sendMail = () => {
   var link = "mailto:zennylorenz@gmail.com"
@@ -50,17 +51,23 @@ const Contact = () => {
                 </div>
               </div>
               <ul>
-                <li className='icon'>
-                  <BsFacebook size={25} />
+                <li className='icon fb-ic'>
+                  <Link href={'https://web.facebook.com/100079465344233/'}><BsFacebook size={25}  /></Link>
                 </li>
-                <li className='icon'>
-                  <IoLogoWhatsapp href={'https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'} size={25} />
+                <li className='icon wa-ic'>
+                  <Link href={'https://api.whatsapp.com/send/?phone=254722258094&text&type=phone_number&app_absent=0'}>
+                  <IoLogoWhatsapp size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
+                <li className='icon ig-ic'>
+                  <Link href={'/'}>
                   <AiFillInstagram size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
+                <li className='icon li-ic'>
+                  <Link href={'/'}>
                   <AiFillLinkedin size={25} />
+                  </Link>
                 </li>
               </ul>
             </div>

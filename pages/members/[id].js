@@ -1,4 +1,4 @@
-import { board } from "@/assets/data/dummydata";
+import { members } from "@/assets/data/dummydata";
 import Banner from "@/components/Banner";
 import { Title, TitleSm } from "@/components/common/Title";
 import Head from "next/head";
@@ -18,7 +18,7 @@ const SingleProfile = () => {
   //   post = members.find((post) => post.id === postId);
   // }
 
-  const post = board.find((post) => post.id === postId)
+  const post = members.find((post) => post.id === postId)
 
   if (!post) {
     return <div>Loading...</div>;
@@ -32,9 +32,11 @@ const SingleProfile = () => {
       <section className="post-details bg-top">
         <div className="container">
           <div className="heading-title">
-            
+            {post.type === "board" ? (
               <Title title="Our Board" />
-          
+            ) : (
+              <Title title="Our Members" />
+            )}
             <br />
             <br />
             <Title title={post.role} className="title-bg" />

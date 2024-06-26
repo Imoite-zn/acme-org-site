@@ -15,7 +15,7 @@ const Members = () => {
           </div>
           <div className='grid-4 py'>
             {members.map((item) => (
-              <Card data={item} key={item.id} caption={item.role} path='profiles' />
+              <Card data={item} key={item.id} caption={item.role} path='members' />
             ))}
           </div>
         </div>

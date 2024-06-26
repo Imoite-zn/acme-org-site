@@ -25,39 +25,39 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Community driven Development",
+    title: "Capacity Building",
     cover: "../images/community.jpg",
-    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+    description: "Our approach is premised on linking our clients to various socio-economic and financing opportunities that exist locally but are not accessed by communities due to either ignorance or lack of exposure. Some of them include Women Enterprise Fund, Youth Enterprise Fund, Biashara Fund, Equity and Kenya Commercial Bank Business Loans etc. In peace building, we introduce our clients to the concepts of cross border trade and of 8 pillars of positive peace that are also premised on linking them to available economic opportunities as a means of promoting durable peace.",
   },
   {
     id: 2,
-    title: "Water Sanitation and Hygiene",
+    title: "Peace Building & Conflict Management",
     cover: "../images/tank.jpg",
-    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+    description: "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.",
   },
   {
     id: 3,
-    title: "Education",
+    title: "Resilience and Self-Reliance",
     cover: "../images/e3.jpg",
-    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+    description: " Make human settlements inclusive, safe, resilient and sustainable; take urgent action to combat climate change and its impacts; Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all; Achieve food security, improved nutrition and promote sustainable agriculture.",
   },
   {
     id: 4,
-    title: "Farming",
+    title: "Public Health, Water, Sanitation and Hygiene",
     cover: "../images/f2.jpg",
-    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+    description: "Ensure healthy lives and promote well-being for all at all ages; Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all; Ensure availability and sustainable management of water and sanitation for all.",
   },
   {
     id: 5,
-    title: "Resilience",
+    title: "Research and Advocacy",
     cover: "../images/solar_installation.jpg",
-    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+    description: "We engage and support refugee and host communities in provision of environmental conservation products and services. This includes links to production and use of echo-friendly products such as mini grids, modern cooking stoves and solar energy as an efficient approach for conserving the environment",
   },
   {
     id: 6,
-    title: "Farming",
+    title: "Current Programmes",
     cover: "../images/f2.jpg",
-    description: "blaahah shabvi afiweuiea jhafk nsklns biskjnds jksd",
+    description: "Acme, a development organization in Kenya's Turkana County, collaborates with the Agency for Cross Border Peace and Development to strengthen civil society, promote resource management, and build resilience across borders. Their projects, including USAID-funded initiatives and their own endeavors, address issues like policymaking participation, social cohesion, and climate change, ultimately aiming to empower communities and foster peaceful coexistence in the region.",
   },
 ]
 
@@ -104,61 +104,61 @@ export const brand = [
     id: 1,
     title: "partner 1" ,
     cover: "../images/d1.jpg",
-    description: 'Phasellus nec tempor neque. In nec finibus lorem',
+    description: 'APAD',
   },
   {
     id: 2,
     title: "partner 2",
     cover: "../images/d2.jpg",
-    description: 'part',
+    description: 'IGAD',
   },
   {
     id: 3,
     title: "partner 3",
     cover: "../images/d3.jpg",
-    description: 'partner 3',
+    description: 'IPHRD',
   },
   {
     id: 4,
     title: "partner 4",
     cover: "../images/d4.jpg",
-    description: 'partner 4',
+    description: 'TLWF',
   },
   {
     id: 5,
     title: "partner 5",
     cover: "../images/d5.jpg",
-    description: 'partner 5',
+    description: 'MERCY CORPS',
   },
   {
     id: 6,
     title: "partner 6",
     cover: "../images/d6.jpg",
-    description: 'partner 6',
+    description: 'PACT',
   },
   {
     id: 7,
     title: "partner 7",
     cover: "../images/d7.jpg",
-    description: 'partner 7',
+    description: 'RECONCILE',
   },
   {
     id: 8,
     title: "partner 8",
     cover: "../images/d8.jpg",
-    description: 'partner 8',
+    description: 'SOPA',
   },
   {
     id: 9,
     title: "partner 9",
     cover: "../images/d9.jpg",
-    description: 'partner 9',
+    description: 'TCG',
   },
   {
     id: 10,
     title: "partner 10",
     cover: "../images/horn-learning-logo.png",
-    description: 'partner 10',
+    description: 'Horn Learning',
   },
   
 ]
@@ -170,7 +170,8 @@ export const agency = [
     cover: "../images/a1.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
     date: "JANUARY 12, 2022",
-    description: "An Empowered and Dignified Society"
+    description: "An Empowered and Dignified Society",
+    extra: "ACME targets vulnerable and marginalized members of the community. Also, ACME targets street children/families, displaced persons, and refugees across Kenya - with the aim of alleviating them from poverty and other undignified living conditions. Additionally, ACME seeks to empower multi-dimensionally poor through physical development, nutrition, health, education, child protection, information, water, sanitation and housing. ACME’s current constituency covers Turkana West Sub-County"
   },
   {
     id: 2,
@@ -186,7 +187,13 @@ export const agency = [
     cover: "../images/community.jpg",
     catgeory: "AGRICULTURE & FOOD SECURITY",
     date: "JANUARY 12, 2022",
-    description: "Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus."
+    description: [  "I. Integrity", 
+                    "II. 	Professionalism",
+                    "III.	Social Justice and Equity",
+                    "IV.	Participation and Inclusion",
+                    "V.	Empowerment",
+                    "VI.	Environmental Sustainability",
+    ],
   },
   {
     id: 4,

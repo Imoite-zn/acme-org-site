@@ -29,7 +29,7 @@ const AgencyPage = () => {
           </div>
 
           <div className='content flex1'>
-            <div className='left w-60 py'>
+            <div className='left w-60y p'>
               <TitleSm title={post.title} />
               <p className='desc-p'>{post.description}</p>
               <div className='grid-3'>
@@ -50,6 +50,11 @@ const AgencyPage = () => {
             <div className='right w-40 ml'>
               <img src={post.cover} alt={post.title} className='round' width='100%' height='100%' objectFill='contain' />
             </div>
+          </div>
+          <div className='left w-40 py'>
+            <br>
+            </br>
+          <p className='desc-p'>{post.extra}</p>
           </div>
         </div>
       </section>
