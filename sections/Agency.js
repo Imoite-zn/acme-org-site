@@ -30,7 +30,7 @@ const Agency = ({ post }) => {
           <div className='content flex1'>
             <div className='left w-60 py'>
               <TitleSm title='Our Vision' />
-              <p className='desc-p'>{description}</p>
+              <p className='desc-p top-tt'>{description}</p>
               <div className='grid-3'>
                 <div className='box'>
                   <h1 className='indigo'>5+</h1>
