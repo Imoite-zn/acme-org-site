@@ -48,7 +48,7 @@ const Header = () => {
               </Link>
               <div className="dropdown-content">
                 <Link href='/services/1'>PUBLIC HEALTH, EDUCATON WATER SANITATION & HYGEINE</Link>
-                <Link href='/services/2'>PEACE BUIDING & CONFLICT MANAGEMENT</Link>
+                <Link href='/services/2'>PEACE BUILDING & CONFLICT MANAGEMENT</Link>
                 <Link href='/services/3'>RESILIENCE, CLIMATE CHANGE & LIVELIHOODS</Link>
                 <Link href='/services/4'>NATURAL RESOURCE MANAGEMENT &  ENERGY</Link>
                 <Link href='/services/5'>RESEARCH AND ADVOCACY</Link>

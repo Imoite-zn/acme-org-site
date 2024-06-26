@@ -397,6 +397,12 @@ footer {
   background-position: bottom ;
   background-size: cover;
 }
+@media screen and (max-width: 800px) {
+  .heading-title-vp{
+    background: #F5F5F5;
+  }
+}
+
 
 
 // Contact page Links
