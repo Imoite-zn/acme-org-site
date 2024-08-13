@@ -87,25 +87,24 @@ const Agency = ({ post }) => {
                     III. Social Justice and Equity
                     </li>
                     <li>
-                    IV. Diversity
+                    IV. Participation and Inclusion
                     </li>
                     <li>
-                    V. Commitment to what we do
+                    V. Empowerment
                     </li>
                     <li>
-                    VI. Accountability
-                    </li>
-                    <li>
-                    VII. Legitimacy
-                    </li>
-                    <li>
-                    VIII. Effectiveness
+                    VI. Environment Sustainability
                     </li>
                   </ul>
               </div>
               <div className="cv-sect left w-60">
 
               </div>
+          </div>
+          <br>
+          </br>
+          <div>
+            New content here
           </div>
         </div>
       </section>

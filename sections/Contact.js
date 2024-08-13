@@ -9,7 +9,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link"
 
 const sendMail = () => {
-  var link = "mailto:zennylorenz@gmail.com"
+  var link = "mailto:ijackaaw@gmail.com"
              + "&subject=" + encodeURIComponent("This is my subject")
              + "&body=" + encodeURIComponent(document.getElementById('myText').value)
     ;

@@ -46,6 +46,7 @@ const Header = () => {
               <Link href='/services' className={activeLink == "/services"? "activeLink" : "none"}>
                 WHAT WE DO
               </Link>
+              {/* fix the dropdown menus  */}
               <div className="dropdown-content">
                 <Link href='/services/1'>PUBLIC HEALTH, EDUCATON WATER SANITATION & HYGEINE</Link>
                 <Link href='/services/2'>PEACE BUILDING & CONFLICT MANAGEMENT</Link>
