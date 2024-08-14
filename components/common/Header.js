@@ -29,10 +29,16 @@ const Header = () => {
             <Link href='/' className={activeLink == "/"? "activeLink" : "none"}>
               HOME
             </Link>
-            
-              <Link href='/agency' className={activeLink == "/agency"? "activeLink" : "none"}>
+            <div className="dropdown">
+            <Link href='/agency' className={activeLink == "/agency"? "activeLink" : "none"}>
                 WHO WE ARE
               </Link>
+              <div className="dropdown-content">
+                  <Link href='/agency'>ABOUT US</Link>
+                  <Link href='/approaches'>APPROACHES</Link>
+              </div>
+            </div>
+              
             <div className="dropdown">
               <Link href='/team' className={activeLink == "/team"? "activeLink" : "none"}>
                 TEAM
@@ -46,15 +52,21 @@ const Header = () => {
               <Link href='/services' className={activeLink == "/services"? "activeLink" : "none"}>
                 WHAT WE DO
               </Link>
-              {/* fix the dropdown menus  */}
-              <div className="dropdown-content">
-                <Link href='/services/1'>PUBLIC HEALTH, EDUCATON WATER SANITATION & HYGEINE</Link>
-                <Link href='/services/2'>PEACE BUILDING & CONFLICT MANAGEMENT</Link>
-                <Link href='/services/3'>RESILIENCE, CLIMATE CHANGE & LIVELIHOODS</Link>
-                <Link href='/services/4'>NATURAL RESOURCE MANAGEMENT &  ENERGY</Link>
-                <Link href='/services/5'>RESEARCH AND ADVOCACY</Link>
+                <div className="dropdown-content">
                 <Link href='/services/6'>CURRENT PROGRAMMES</Link>
-              </div>
+                  <div className="sub-dropdown">
+                    <Link href='/services/1' className={activeLink == "/services/1"? "activeLink" : "none"} >
+                      STRATEGIC PROGRAMME AREAS
+                    </Link>
+                    <div className="sub-dropdown-content">
+                      <Link href='/services/1'>PUBLIC HEALTH, EDUCATON, WATER, SANITATION & HYGEINE</Link>
+                      <Link href='/services/2'>PEACE BUILDING & CONFLICT MANAGEMENT</Link>
+                      <Link href='/services/3'>RESILIENCE, CLIMATE CHANGE & LIVELIHOODS</Link>
+                      <Link href='/services/4'>NATURAL RESOURCE MANAGEMENT &  ENERGY</Link>
+                      <Link href='/services/5'>RESEARCH AND ADVOCACY</Link>
+                    </div>
+                    </div>
+                </div>
             </div>
             <Link href='/blogs' className={activeLink == "/blogs"? "activeLink" : "none"}>
               PARTNERS

@@ -119,6 +119,49 @@ nav ul li:hover {
   display: block;
 }
 
+
+//  sub-drop-down section
+.sub-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.sub-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  animation: animateFromBottom .3s;  
+}
+
+.sub-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.sub-dropdown-content a:hover {background-color: #c9cf7278}
+
+.sub-dropdown:hover .sub-dropdown-content {
+  display: block;
+}
+@media only screen and (max-width: 800px) {
+  .sub-dropdown-content {
+    position: relative;
+    display: block;
+  }
+  .sub-dropdown-content a {
+    display: block;
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   header {
     .container{
