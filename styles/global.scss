@@ -446,3 +446,82 @@ footer {
   font-weight: 700;
   color: #2a3a7a;
 }
+
+// Goal section
+.goal-sect{
+  .titleSm{
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
+  .goal-info{
+    background: #6175c742;
+  }
+}
+
+// Objective section
+
+.obj-section{
+  padding-bottom: 9.5rem;
+  margin-bottom: 40px;
+  .flex2 {
+    flex-direction: column;
+  }
+  .main-obj{
+    .titleSm{
+      font-size: 2.5rem;
+    }
+  }
+  .outcms-obj-sect{
+    height: auto;
+    .titleSm{
+      background: #343f4779;
+      border-radius: 8px;
+    }
+  }
+  .strat-obj-sect{
+    height: auto;
+    .titleSm{
+      background: #4d6c5979;
+      border-radius: 8px;
+    }
+    .strat-obj-lst{
+      list-style: upper-roman;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .obj-section{
+    .mini-flex{
+      flex-wrap: wrap;
+      position: relative;
+      .core-v-section{
+        padding: 10px;
+        margin: auto;
+        line-height: 2.5;
+        height: auto;
+        width: auto;
+      }
+    }
+    .outcms-obj-sect{
+      flex: auto;
+      bottom: 70px;
+      margin-top: 10px;
+      padding: 10%;
+    }
+    .strat-obj-sect{
+      flex: auto;
+      margin: 10px;
+      padding: 10%;
+    }
+
+  }
+}
+
+
+// Members section card height
+.agency{
+ .container{
+    .card-height{
+      height: 250px;
+   }
+ }}

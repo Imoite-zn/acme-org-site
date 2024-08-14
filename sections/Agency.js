@@ -70,7 +70,8 @@ const Agency = ({ post }) => {
             </div>
             <div className='left w-40 ml'>
             <TitleSm title='Our Mission' />
-            <p className='desc-p'>ACME targets vulnerable and marginalized members of the community. Also, ACME targets street children/families, displaced persons, and refugees across Kenya - with the aim of alleviating them from poverty and other undignified living conditions. Additionally, ACME seeks to empower multi-dimensionally poor through physical development, nutrition, health, education, child protection, information, water, sanitation and housing. ACME’s current constituency covers Turkana West Sub-County.</p>
+            <p className='desc-p'><br></br>ACME exists to organize community members in implementing transformational programs by
+            Capacity Building them on initiatives supporting Community Driven Development.</p>
             </div>
           </div>
           <div className=" content flex1">
@@ -103,13 +104,104 @@ const Agency = ({ post }) => {
           </div>
           <br>
           </br>
-          <div>
-            New content here
+          <div className="goal-sect ">
+            <div className="g-title-n-content">
+            <TitleSm title='Goal' />
+            </div>
+            <div className="goal-info right">
+                <p className="desc-p">
+                    ACME aims to contribute towards resolving inherent challenges faced by the most
+                    impoverished nomadic pastoralists, vulnerable and marginalized groups. These inherent problems are
+                    manifested in conflicts, poverty, and inadequate access to water, sanitation and hygiene, and a
+                    degraded environment. The community is mobilised using Community Driven Development as a tool
+                    for initiating and owning both government and development partner support.
+                    </p>
+            </div>
           </div>
+          <br></br>
+          <div className="obj-section">
+                <div className="flex1">
+                <div className='right w-60 py'>
+                <div>
+                  <img src="/images/obj-pg.jpg" alt="Image 1" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+                </div>
+                <div className='left w-40 ml main-obj'>
+                <TitleSm title='Main Objecive' />
+                <p className='desc-p'><br></br>
+                To promote education, peaceful coexistence, improve agriculture, health awareness, water access,
+                sanitation and hygiene and contribute to environmental conservation.
+                </p>
+                </div>
+              </div>
+          
+
+              <div className="flex1 mini-flex">
+                  <div className="strat-obj-sect left w-50 ml">
+                  <div>
+                    <TitleSm title='Strategic Objectives' />
+                  </div>
+                  <ul className="core-v-section strat-obj-lst">
+                        <li>
+                         To rehabilitate water sources such as boreholes, water pans for domestic and animal use.
+                        </li>
+                        <li>
+                         To facilitate awareness on health, water, sanitation and hygiene in schools and communities.
+                        </li>
+                        <li>
+                         To Facilitate capacity building on conflict transformation and peace building.
+                        </li>
+                        <li>
+                         To promote adaptive agricultural practices for increased food production.
+                        </li>
+                        <li>
+                         To promote afforestation through tree planting both in schools and in the community.
+                        </li>
+                        <li>
+                         To undertake regular conflict analysis, PEA and research and information sharing amongst
+                        others to build an evidence base and inform early warning and responses.
+                        </li>
+                      </ul>
+                  </div>
+                  <div className="outcms-obj-sect right w-50 ml">
+                  <div>
+                    <TitleSm title='Outcomes of Objectives' />
+                  </div>
+                  <ol className="core-v-section">
+                        <li>
+                         Water Source Rehabilitation: CLEAN WATER AND SANITATION <br></br>
+
+                        • Increased access and sustainable management of water for both domestic and agricultural use.
+                        </li>
+                        <li>
+                         Awareness and Education on health and WASH: PHE & WASH <br></br>
+
+                        • Promotion of awareness on health practices and well being for all.
+                        </li>
+                        <li>
+                         Conflict Transformation and Peacebuilding - PB & CM
+                        </li>
+                        <li>
+                         Promotion of Adaptive Agricultural Practices and sustainable livelihoods: ZERO HUNGER
+                        </li>
+                        <li>
+                         Afforestation Through Tree Planting: NRM FOR CLIMATE CHANGE
+                        </li>
+                        <li>
+                         Provide EWER data and policy review through participatory Research.
+                        </li>
+                      </ol>
+                  </div>
+              </div>
+
+          </div>
+          <br></br>
         </div>
       </section>
-
+      <div>
       <Brand />
+      </div>
+     
       <Banner />
       <br />
       <br />
