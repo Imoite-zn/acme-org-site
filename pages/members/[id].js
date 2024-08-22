@@ -40,7 +40,7 @@ const SingleProfile = () => {
             <br />
             <br />
             <Title title={post.role} className="title-bg" />
-            <div className="img py">
+            <div className="prof-img py">
               <img src={post.cover} alt={post.title} width="100%" height="100%" className="round" />
             </div>
             <br />

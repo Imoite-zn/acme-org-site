@@ -530,3 +530,10 @@ footer {
 .thry-of-chang{
   background: #343f475b;
 }
+
+// Carousel
+.slick-slide {
+  >div { // automatically generated 'div' by 'react-slick'
+    margin-inline: 15px; //  space between slides / 2
+  }
+}

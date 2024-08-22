@@ -12,7 +12,7 @@ const Brand = () => {
     infinite: true,
     speed: 1000,    
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     slidesToShow: 5,
     slidesToShow: 5,
   };
