@@ -75,7 +75,7 @@ const Contact = () => {
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Fill out the form below to get our proposal. </p>
 
-              <form action="mailto:zennylorenz@gmail.com" method="post" enctype="text/plain">
+              <form action="mailto:ijackaaw@gmail.com" method="post" enctype="text/plain">
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>

@@ -160,6 +160,42 @@ export const brand = [
     cover: "../images/horn-learning-logo.png",
     description: 'Horn Learning',
   },
+  {
+    id: 11,
+    title: "partner 11",
+    cover: "../images/d10.jpg",
+    description: 'PACT',
+  },
+  {
+    id: 12,
+    title: "partner 12",
+    cover: "../images/d11.jpg",
+    description: 'RECONCILE',
+  },
+  {
+    id: 13,
+    title: "partner 13",
+    cover: "../images/d12.jpg",
+    description: 'SOPA',
+  },
+  {
+    id: 14,
+    title: "partner 14",
+    cover: "../images/d13.png",
+    description: 'TCG',
+  },
+  {
+    id: 15,
+    title: "partner 14",
+    cover: "../images/d14.png",
+    description: 'TCG',
+  },
+  {
+    id: 16,
+    title: "partner 15",
+    cover: "../images/d15.webp",
+    description: 'Horn Learning',
+  },
   
 ]
 
@@ -243,8 +279,8 @@ export const board = [
   {
     id: 1,
     title: "Whycliffe Ijackaa",
-    cover: "../images/t1.jpg",
-    role: "FOUNDER, CEO",
+    cover: "../images/bm1.jpg",
+    role: "CEO",
     description: "Whycliffe is a seasoned humanitarian and development specialist with nearly two decades of experience. He excels in managing projects across various sectors, from social services to conflict resolution. He's an expert in monitoring and evaluation, utilizing participatory approaches to assess project impact. Whycliffe is also passionate about training and is a certified Do-No-Harm trainer",
   },
   {
@@ -289,7 +325,7 @@ export const members = [
     id: 1,
     title: "Rose Ong'ech",
     cover: "../images/Rose1.jpg",
-    role: "ACCOUNTING MANAGER",
+    role: "PEACE BUILDING & M&E",
     description: "Rose is a highly experienced development professional with over 10 years in project management, community research, and monitoring and evaluation, especially in areas with diverse cultures. She has a strong track record working across borders in Kenya, Uganda, and South Sudan on crucial issues like food security, livelihoods, and peacebuilding.  Beyond project implementation, Rose demonstrates expertise in research, having served as a Co-Investigator for evaluations on critical health topics funded by well-respected organizations. Her recent data analysis consultancy further showcases her diverse skillset within the health sector.",
   },
   {
@@ -338,11 +374,18 @@ export const members = [
     id: 8,
     title: "Davis Wafula",
     cover: "../images/Davis Wafula-Head of Programmes.jpg",
-    role: "HEAD OF PROGRAMMES",
+    role: "MERL TRAINING OFFICER",
     description:"Davis is a seasoned professional with a strong background in conflict resolution, peacebuilding, and humanitarian efforts. He's passionate about promoting Gender Equality, Food Security, and Emergency Response initiatives.",
   },
-   {
+  {
     id: 9,
+    title: "New Role",
+    cover: "../images/f22.jpg",
+    role: "COMMUNICATION AND COMMUNITY OUTREACH",
+    description:"New Data Here",
+  },
+   {
+    id: 10,
     title: "Volunteer? Join our team!",
     cover: "../images/volunteer.jpg",
     role: "VOLUNTEERING",

@@ -48,7 +48,26 @@ const Approaches = ({ post }) => {
           <div className="content">
             <div className=' py'>
             <div>
-              <img src="/images/g3.jpg" alt="Image 1" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+              <Slider {...settings}>
+                  <div>
+                  <img src="/images/f11.jpg" alt="Image 1" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+                  <div>
+                  <img src="/images/f12.jpg" alt="Image 2" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+                  <div>
+                  <img src="/images/f21.jpg" alt="Image 3" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+                  <div>
+                  <img src="/images/f18.jpg" alt="Image 1" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+                  <div>
+                  <img src="/images/f15.jpg" alt="Image 2" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+                  <div>
+                  <img src="/images/f16.jpg" alt="Image 3" style={{ width: '100%', height: '60vh', objectFit: 'contain' }} />
+                  </div>
+              </Slider>
               </div>
             </div>
             <div className='left ml'>
