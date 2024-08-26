@@ -49,7 +49,7 @@ const Agency = ({ post }) => {
             <div className='right w-40 ml'>
               <Slider {...settings}>
               <div>
-              <img src="/images/event-2.jpg" alt="Image 1" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
+              <img src="/images/f20.jpg" alt="Image 1" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
               </div>
               <div>
               <img src="/images/hero-turks.jpg" alt="Image 2" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
