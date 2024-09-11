@@ -1,5 +1,5 @@
 import { Title, TitleSm } from "@/components/common/Title"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
@@ -8,15 +8,65 @@ import { IoLocationOutline } from "react-icons/io5"
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link"
 
-const sendMail = () => {
-  var link = "mailto:ijackaaw@gmail.com"
-             + "&subject=" + encodeURIComponent("This is my subject")
-             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
-    ;
-    
-    window.location.href = link;
-}
+
+const Notification = ({ message, type }) => (
+  <div className={`notification ${type}`}>
+    {message}
+  </div>
+)
+
 const Contact = () => {
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [number, setNumber] = useState('')
+  const [message, setMessage] = useState('')
+  const [notification, setNotification] = useState(null)
+
+  const onSubmit = async (e) => {
+    e.preventDefault()
+    
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        body: JSON.stringify({
+          name, 
+          email, 
+          number, 
+          message,
+        }),
+        headers: {
+          'content-type': 'application/json',
+        },
+      })
+
+      const data = await res.json()
+
+      if (res.ok) {
+        setNotification({ message: 'Form submitted successfully! We will contact you soon.', type: 'success' })
+        // Clear the form fields
+        setName('')
+        setEmail('')
+        setNumber('')
+        setMessage('')
+      } else {
+        setNotification({ message: data.message || 'Failed to submit the form. Please try again.', type: 'error' })
+      }
+    } catch (error) {
+      console.error('Error', error)
+      setNotification({ message: 'An error occurred. Please try again.', type: 'error' })
+    }
+  }
+
+  useEffect(() => {
+    if (notification) {
+      const timer = setTimeout(() => {
+        setNotification(null)
+      }, 5000)
+      return () => clearTimeout(timer)
+    }
+  }, [notification])
+
   return (
     <>
       <section className='contact bg-top'>
@@ -46,7 +96,7 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>acmengo2018@gmail.com</h3>
+                  <h3>info@acmekenya.org</h3>
                   <span>Career at AcmeKenya.org</span>
                 </div>
               </div>
@@ -75,26 +125,43 @@ const Contact = () => {
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Fill out the form below to get our proposal. </p>
 
-              <form action="mailto:ijackaaw@gmail.com" method="post" enctype="text/plain">
+              <form onSubmit={onSubmit}>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
-                    <input type='text' />
+                    <input 
+                    type='text' 
+                    value={name} 
+                    onChange={ e => setName(e.target.value) } 
+                    placeholder="Name"
+                    />
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' />
+                    <input 
+                    type='text' 
+                    value={email} 
+                    onChange={ e => setEmail(e.target.value) } 
+                    placeholder="Email" />
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Phone Number</span>
-                    <input type='text' />
+                    <input
+                    type='text' 
+                    value={number} 
+                    onChange={ e => setNumber(e.target.value) } 
+                    placeholder="Number" 
+                    />
                   </div>
                 </div>
                 <div className='inputs'>
                   <span>INQUIRY | INFORM US HERE</span>
-                  <textarea id="myText" cols='30' rows='10'></textarea>
+                  <textarea id="myText" cols='30' rows='10'
+                    value={message}
+                    onChange={ e => setMessage(e.target.value)}
+                  ></textarea>
                 </div>
                 <button type="submit" className='button-primary' >Submit</button>
               </form>
@@ -102,6 +169,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      {notification && (
+        <Notification message={notification.message} type={notification.type} />
+      )}
     </>
   )
 }

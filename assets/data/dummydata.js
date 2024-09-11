@@ -56,7 +56,7 @@ export const expertise = [
   {
     id: 6,
     title: "Current Programmes",
-    cover: "../images/f2.jpg",
+    cover: "../images/f13.jpg",
     description: "Acme, a development organization in Kenya's Turkana County, collaborates with the Agency for Cross Border Peace and Development to strengthen civil society, promote resource management, and build resilience across borders. Their projects, including USAID-funded initiatives and their own endeavors, address issues like policymaking participation, social cohesion, and climate change, ultimately aiming to empower communities and foster peaceful coexistence in the region.",
   },
 ]
