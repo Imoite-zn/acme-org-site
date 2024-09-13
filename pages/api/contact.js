@@ -17,8 +17,8 @@ export default async function handler(req, res) {
             return res.status(500).json({ message: 'Server configuration error: Missing email credentials' });
         }
 
-        console.log('Email User:', process.env.EMAIL_USER); // Log email user
-        console.log('App Password exists:', !!process.env.EMAIL_APP_PASSWORD); // Check if password exists
+        // console.log('Email User:' xffft); // Log email user
+        // console.log('App Password exists:', reedawald ); // Check if password exists
 
         // Create a transporter using SMTP
         let transporter = nodemailer.createTransport({

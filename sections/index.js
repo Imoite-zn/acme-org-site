@@ -6,5 +6,6 @@ import Blog from "./Blog"
 import Contact from "./Contact"
 import Members from "./Members"
 import Approaches from "./Approaches"
+import Currentprg from "./Current-prg"
 
-export { Hero, Agency, Team, ShowCase, Blog, Contact, Members, Approaches }
+export { Hero, Agency, Team, ShowCase, Blog, Contact, Members, Approaches, Currentprg }

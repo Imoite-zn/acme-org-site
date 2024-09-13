@@ -53,7 +53,7 @@ const Header = () => {
                 WHAT WE DO
               </Link>
                 <div className="dropdown-content">
-                <Link href='/services/6'>CURRENT PROGRAMMES</Link>
+                <Link href='/current-prg'>CURRENT PROGRAMMES</Link>
                   <div className="sub-dropdown">
                     <Link href='/services/1' className={activeLink == "/services/1"? "activeLink" : "none"} >
                       STRATEGIC PROGRAMME AREAS
