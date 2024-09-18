@@ -397,6 +397,16 @@ footer {
   background-position: bottom ;
   background-size: cover;
 }
+.heading-title-vp-crnt-prg{
+  background: url('../public/images/tr-piping.jpg');
+  background-position: center ;
+  background-size: cover;
+}
+.h-title-crnt-prg{
+  color: #0b2c43;
+  font-weight: 500;
+  font-size: xx-large;
+}
 @media screen and (max-width: 800px) {
   .heading-title-vp{
     background: #F5F5F5;

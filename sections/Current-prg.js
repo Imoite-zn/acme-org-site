@@ -21,7 +21,7 @@ const Currentprg = ({ post }) => {
     <>
       <section className='agency bg-top'>
         <div className='container'>
-          <div className='heading-title heading-title-vp'>
+          <div className='h-title-crnt-prg heading-title heading-title-vp-crnt-prg'>
             <TitleSm title='CURRENT PROGRAMMES' /> <br />
             <br />
             <Title title='' className='title-bg' />
@@ -35,13 +35,13 @@ const Currentprg = ({ post }) => {
             <div className='right w-40 ml'>
               <Slider {...settings}>
               <div>
-              <img src="/images/f20.jpg" alt="Image 1" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
+              <img src="/images/landscape-green.jpg" alt="Image 1" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
               </div>
               <div>
-              <img src="/images/hero-turks.jpg" alt="Image 2" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
+              <img src="/images/tr-piping.jpg" alt="Image 2" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
               </div>
               <div>
-              <img src="/images/f5.jpg" alt="Image 3" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
+              <img src="/images/f20.jpg" alt="Image 3" style={{ width: '100%', height: '70vh', objectFit: 'contain' }} />
               </div>
               </Slider>
             </div>
