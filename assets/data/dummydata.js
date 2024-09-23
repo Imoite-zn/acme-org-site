@@ -313,7 +313,7 @@ export const board = [
   },
   {
     id: 6,
-    title: "Grace Nasike",
+    title: "DR. Grace Nasike",
     cover: "../images/bm6.jpg",
     role: "MEDICAL DOCTOR & TREASURER",
     description: "Grace is a passionate medical doctor with a strong background in public health.  She has experience working in NGOs on issues like gender equality, policy analysis, and project management. Her focus on sexual and reproductive health rights and her experience with community health challenges make her uniquely qualified to address the needs of adolescent girls and young women.",
