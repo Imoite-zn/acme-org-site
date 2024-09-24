@@ -4,9 +4,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export default async function handler(req, res) {
-    console.log('Environment variables:', process.env);
-    console.log('EMAIL_USER:', process.env.EMAIL_USER);
-    console.log('EMAIL_APP_PASSWORD exists:', !!process.env.EMAIL_APP_PASSWORD);
+    console.log('Environment variables Present');
+    console.log('EMAIL_USER: present');
+    console.log('EMAIL_APP_PASSWORD exists');
 
     if (req.method === 'POST') {
         const { name, email, number, message } = req.body;
