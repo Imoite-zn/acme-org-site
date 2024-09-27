@@ -45,8 +45,7 @@ const Contact = () => {
       }
 
       const data = await res.json()
-
-      setNotification({ message: 'Form submitted successfully! We will contact you soon.', type: 'success' })
+      setNotification({ message: data.message, type: 'success' })
       // Clear the form fields
       setName('')
       setEmail('')
