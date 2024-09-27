@@ -26,8 +26,14 @@ const Contact = () => {
   const onSubmit = async (e) => {
     e.preventDefault()
     
+    const timeoutDuration = 10000; // 10 seconds
+    
+    const timeoutPromise = new Promise((_, reject) => 
+      setTimeout(() => reject(new Error('Request timed out')), timeoutDuration)
+    );
+
     try {
-      const res = await fetch('/api/contact', {
+      const fetchPromise = fetch('/api/contact', {
         method: 'POST',
         body: JSON.stringify({
           name, 
@@ -38,7 +44,9 @@ const Contact = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-      })
+      });
+
+      const res = await Promise.race([fetchPromise, timeoutPromise]);
 
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
