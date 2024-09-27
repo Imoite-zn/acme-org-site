@@ -36,7 +36,7 @@ const Contact = () => {
           message,
         }),
         headers: {
-          'content-type': 'application/json',
+          'Content-Type': 'application/json', // Corrected header name
         },
       })
 
