@@ -36,25 +36,25 @@ const Contact = () => {
           message,
         }),
         headers: {
-          'Content-Type': 'application/json', // Corrected header name
+          'Content-Type': 'application/json',
         },
       })
 
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`);
+      }
+
       const data = await res.json()
 
-      if (res.ok) {
-        setNotification({ message: 'Form submitted successfully! We will contact you soon.', type: 'success' })
-        // Clear the form fields
-        setName('')
-        setEmail('')
-        setNumber('')
-        setMessage('')
-      } else {
-        setNotification({ message: data.message || 'Failed to submit the form. Please try again.', type: 'error' })
-      }
+      setNotification({ message: 'Form submitted successfully! We will contact you soon.', type: 'success' })
+      // Clear the form fields
+      setName('')
+      setEmail('')
+      setNumber('')
+      setMessage('')
     } catch (error) {
       console.error('Error', error)
-      setNotification({ message: 'An error occurred. Please try again.', type: 'error' })
+      setNotification({ message: 'An error occurred. Please try again later.', type: 'error' })
     }
   }
 
