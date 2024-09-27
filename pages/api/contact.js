@@ -46,8 +46,14 @@ export default async function handler(req, res) {
     // Send response immediately
     res.status(200).json({ message: 'Form submission received. Email will be sent shortly.' });
 
-    // Send email in the background
-    sendEmail(mailOptions);
+    // Send email asynchronously
+    try {
+      await transporter.verify();
+      await transporter.sendMail(mailOptions);
+      console.log('Email sent successfully');
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
   } else {
     res.setHeader('Allow', ['POST']);
     res.status(405).end(`Method ${req.method} Not Allowed`);
