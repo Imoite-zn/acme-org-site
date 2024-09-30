@@ -8,7 +8,7 @@ import { IoLocationOutline } from "react-icons/io5"
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link"
 
-
+// Notification component
 const Notification = ({ message, type }) => (
   <div className={`notification ${type}`}>
     {message}
@@ -16,63 +16,65 @@ const Notification = ({ message, type }) => (
 )
 
 const Contact = () => {
+  // State management for form fields and notification
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    number: '',
+    message: ''
+  });
+  const [notification, setNotification] = useState(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [number, setNumber] = useState('')
-  const [message, setMessage] = useState('')
-  const [notification, setNotification] = useState(null)
+  // Handle input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevData => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
 
+  // Form submission handler
   const onSubmit = async (e) => {
-    e.preventDefault()
-    
-    const timeoutDuration = 10000; // 10 seconds
-    
-    const timeoutPromise = new Promise((_, reject) => 
-      setTimeout(() => reject(new Error('Request timed out')), timeoutDuration)
-    );
+    e.preventDefault();
+    setIsSubmitting(true);
+    setNotification({ message: 'Sending...', type: 'info' });
 
     try {
-      const fetchPromise = fetch('/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        body: JSON.stringify({
-          name, 
-          email, 
-          number, 
-          message,
-        }),
         headers: {
           'Content-Type': 'application/json',
         },
+        body: JSON.stringify(formData),
       });
 
-      const res = await Promise.race([fetchPromise, timeoutPromise]);
+      const data = await response.json();
 
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
+      if (!response.ok) {
+        throw new Error(data.message || 'Something went wrong');
       }
 
-      const data = await res.json()
-      setNotification({ message: data.message, type: 'success' })
-      // Clear the form fields
-      setName('')
-      setEmail('')
-      setNumber('')
-      setMessage('')
+      setNotification({ message: data.message, type: 'success' });
+      setFormData({ name: '', email: '', number: '', message: '' });
     } catch (error) {
-      console.error('Error', error)
-      setNotification({ message: 'An error occurred. Please try again later.', type: 'error' })
+      console.error('Submission error:', error);
+      setNotification({ message: error.message, type: 'error' });
+    } finally {
+      setIsSubmitting(false);
     }
-  }
+  };
 
+  // Clear notification after 5 seconds
   useEffect(() => {
     if (notification) {
       const timer = setTimeout(() => {
-        setNotification(null)
-      }, 5000)
-      return () => clearTimeout(timer)
+        setNotification(null);
+      }, 5000);
+      return () => clearTimeout(timer);
     }
-  }, [notification])
+  }, [notification]);
 
   return (
     <>
@@ -138,39 +140,51 @@ const Contact = () => {
                     <span>Name</span>
                     <input 
                     type='text' 
-                    value={name} 
-                    onChange={ e => setName(e.target.value) } 
+                    name="name"
+                    value={formData.name} 
+                    onChange={handleChange} 
                     placeholder="Name"
+                    required
                     />
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
                     <input 
-                    type='text' 
-                    value={email} 
-                    onChange={ e => setEmail(e.target.value) } 
-                    placeholder="Email" />
+                    type='email' 
+                    name="email"
+                    value={formData.email} 
+                    onChange={handleChange} 
+                    placeholder="Email"
+                    required
+                    />
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Phone Number</span>
                     <input
-                    type='text' 
-                    value={number} 
-                    onChange={ e => setNumber(e.target.value) } 
+                    type='tel' 
+                    name="number"
+                    value={formData.number} 
+                    onChange={handleChange} 
                     placeholder="Number" 
                     />
                   </div>
                 </div>
                 <div className='inputs'>
                   <span>INQUIRY | INFORM US HERE</span>
-                  <textarea id="myText" cols='30' rows='10'
-                    value={message}
-                    onChange={ e => setMessage(e.target.value)}
+                  <textarea 
+                  name="message"
+                  cols='30' 
+                  rows='10'
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                   ></textarea>
                 </div>
-                <button type="submit" className='button-primary' >Submit</button>
+                <button type="submit" className='button-primary' disabled={isSubmitting}>
+                  {isSubmitting ? 'Submitting...' : 'Submit'}
+                </button>
               </form>
             </div>
           </div>
