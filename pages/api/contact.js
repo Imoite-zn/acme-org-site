@@ -1,23 +1,4 @@
-import nodemailer from 'nodemailer';
-
-const MAX_RETRIES = 3;
-const RETRY_DELAY = 2000; // 2 seconds
-
-async function sendEmailWithRetry(transporter, mailOptions, retries = 0) {
-  try {
-    const info = await transporter.sendMail(mailOptions);
-    console.log('Message sent: %s', info.messageId);
-    return info;
-  } catch (error) {
-    if (retries < MAX_RETRIES) {
-      console.log(`Retry attempt ${retries + 1}`);
-      await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
-      return sendEmailWithRetry(transporter, mailOptions, retries + 1);
-    } else {
-      throw error;
-    }
-  }
-}
+import SibApiV3Sdk from 'sib-api-v3-sdk';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -26,36 +7,29 @@ export default async function handler(req, res) {
 
   const { name, email, number, message } = req.body;
 
-  const transporter = nodemailer.createTransport({
-    host: 'mail.acmekenya.org',
-    port: 465,
-    secure: true, // use SSL
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASSWORD,
-    },
-    connectionTimeout: 60000, // 60 seconds
-    socketTimeout: 60000, // 60 seconds
-    debug: true, // Enable debug logs
-    logger: true // Enable logger
-  });
+  if (!process.env.BREVO_API_KEY) {
+    console.error('BREVO_API_KEY is not set');
+    return res.status(500).json({ message: 'Server configuration error' });
+  }
 
-  const mailOptions = {
-    from: process.env.EMAIL_USER,
-    to: 'info@acmekenya.org', // Make sure this is the correct recipient email
-    subject: 'New Mail From ACME Website',
-    text: `Name: ${name}\nEmail: ${email}\nPhone: ${number}\nMessage: ${message}`,
-    html: `<h2>New Form Submission</h2><p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Phone:</strong> ${number}</p><p><strong>Message:</strong> ${message}</p>`,
-  };
+  const defaultClient = SibApiV3Sdk.ApiClient.instance;
+  const apiKey = defaultClient.authentications['api-key'];
+  apiKey.apiKey = process.env.BREVO_API_KEY;
+
+  const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
+  const sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
+
+  sendSmtpEmail.subject = 'New Mail From ACME Website';
+  sendSmtpEmail.htmlContent = `<h2>New Form Submission</h2><p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Phone:</strong> ${number}</p><p><strong>Message:</strong> ${message}</p>`;
+  sendSmtpEmail.sender = { name: 'ACME Website', email: '7d3dbd001@smtp-brevo.com' };
+  sendSmtpEmail.to = [{ email: 'info@acmekenya.org' }];
 
   try {
-    await transporter.verify();
-    console.log('SMTP connection verified successfully');
-
-    const info = await sendEmailWithRetry(transporter, mailOptions);
+    const data = await apiInstance.sendTransacEmail(sendSmtpEmail);
+    console.log('Email sent successfully:', data);
     res.status(200).json({ message: 'Email sent successfully' });
   } catch (error) {
-    console.error('Error details:', error);
-    return res.status(500).json({ message: `Server error: ${error.message}` });
+    console.error('Error sending email:', error);
+    res.status(500).json({ message: `Server error: ${error.message}` });
   }
 }
