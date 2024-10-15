@@ -25,6 +25,11 @@ const Contact = () => {
   });
   const [notification, setNotification] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Handle input changes
   const handleChange = (e) => {
@@ -39,7 +44,7 @@ const Contact = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setNotification({ message: 'Sending...', type: 'info' });
+    setNotification(null);
 
     try {
       const response = await fetch('/api/contact', {
@@ -56,11 +61,11 @@ const Contact = () => {
         throw new Error(data.message || 'Something went wrong');
       }
 
-      setNotification({ message: data.message, type: 'success' });
+      setNotification({ message: 'Your message has been sent successfully!', type: 'success' });
       setFormData({ name: '', email: '', number: '', message: '' });
     } catch (error) {
       console.error('Submission error:', error);
-      setNotification({ message: error.message, type: 'error' });
+      setNotification({ message: `Error: ${error.message}`, type: 'error' });
     } finally {
       setIsSubmitting(false);
     }
@@ -75,6 +80,10 @@ const Contact = () => {
       return () => clearTimeout(timer);
     }
   }, [notification]);
+
+  if (!isMounted) {
+    return null; // or a loading spinner
+  }
 
   return (
     <>
