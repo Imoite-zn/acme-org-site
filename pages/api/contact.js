@@ -1,4 +1,4 @@
-import SibApiV3Sdk from 'sib-api-v3-sdk';
+import nodemailer from 'nodemailer';
 import Cors from 'cors'
 
 // Initializing the cors middleware
@@ -28,38 +28,49 @@ export default async function handler(req, res) {
   }
 
   const { name, email, number, message } = req.body;
+  console.log('Received form data:', { name, email, number, message });
 
-  if (!process.env.BREVO_API_KEY) {
-    console.error('BREVO_API_KEY is not set');
+  if (!process.env.BREVO_SMTP_PASSWORD) {
+    console.error('BREVO_SMTP_PASSWORD is not set');
     return res.status(500).json({ message: 'Server configuration error' });
   }
 
-  var defaultClient = SibApiV3Sdk.ApiClient.instance;
-  var apiKey = defaultClient.authentications['api-key'];
-  apiKey.apiKey = process.env.BREVO_API_KEY;
+  // Create a transporter using SMTP
+  let transporter = nodemailer.createTransport({
+    host: "smtp-relay.brevo.com",
+    port: 587,
+    secure: false, // Use TLS
+    auth: {
+      user: "7d3dbd001@smtp-brevo.com",
+      pass: process.env.BREVO_SMTP_PASSWORD,
+    },
+  });
 
-  var apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
-  var sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail();
-
-  sendSmtpEmail.subject = "New Contact Form Submission - ACME WEBSITE";
-  sendSmtpEmail.htmlContent = `
-    <html>
-      <body>
-        <h1>New Contact Form Submission</h1>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${number}</p>
-        <p><strong>Message:</strong> ${message}</p>
-      </body>
-    </html>
-  `;
-  sendSmtpEmail.sender = { name: "ACME Website", email: "info@acmekenya.org" };
-  sendSmtpEmail.to = [{ email: "info@acmekenya.org", name: "ACME Kenya" }];
+  // Setup email data
+  let mailOptions = {
+    from: '"ACME Website" <noreply@acmekenya.org>', // Changed from address
+    to: "info@acmekenya.org", // Added a backup email
+    subject: "New Contact Form Submission - ACME WEBSITE",
+    html: `
+      <html>
+        <body>
+          <h1>New Contact Form Submission</h1>
+          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Phone:</strong> ${number}</p>
+          <p><strong>Message:</strong> ${message}</p>
+        </body>
+      </html>
+    `,
+    text: `New Contact Form Submission\n\nName: ${name}\nEmail: ${email}\nPhone: ${number}\nMessage: ${message}`, // Added plain text version
+  };
 
   try {
-    const data = await apiInstance.sendTransacEmail(sendSmtpEmail);
-    console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-    res.status(200).json({ message: 'Email sent successfully' });
+    console.log('Attempting to send email...');
+    let info = await transporter.sendMail(mailOptions);
+    console.log('Message sent: %s', info.messageId);
+    console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+    res.status(200).json({ message: 'Email sent successfully', messageId: info.messageId });
   } catch (error) {
     console.error('Error sending email:', error);
     res.status(500).json({ message: 'Error sending email', error: error.message });
