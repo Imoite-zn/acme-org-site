@@ -30,25 +30,27 @@ export default async function handler(req, res) {
   const { name, email, number, message } = req.body;
   console.log('Received form data:', { name, email, number, message });
 
-  if (!process.env.BREVO_SMTP_PASSWORD) {
-    console.error('BREVO_SMTP_PASSWORD is not set');
+  if (!process.env.EMAIL_PASSWORD) {
+    console.error('EMAIL_PASSWORD is not set');
     return res.status(500).json({ message: 'Server configuration error' });
   }
 
   // Create a transporter using SMTP
   let transporter = nodemailer.createTransport({
-    host: "smtp-relay.brevo.com",
-    port: 587,
-    secure: false, // Use TLS
+    host: "mail.acmekenya.org",
+    port: 465,
+    secure: true,
     auth: {
-      user: "7d3dbd001@smtp-brevo.com",
-      pass: process.env.BREVO_SMTP_PASSWORD,
+      user: "info@acmekenya.org",
+      pass: process.env.EMAIL_PASSWORD,
     },
+    logger: true, // Enable logging
+    debug: true, // Enable debug output
   });
 
   // Setup email data
   let mailOptions = {
-    from: '"ACME Website" <noreply@acmekenya.org>', // Changed from address
+    from: '"ACME Website" <info@acmekenya.org>', // Changed from address
     to: "info@acmekenya.org", // Added a backup email
     subject: "New Contact Form Submission - ACME WEBSITE",
     html: `

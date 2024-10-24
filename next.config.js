@@ -5,6 +5,7 @@ const nextConfig = {
     EMAIL_USER: process.env.EMAIL_USER,
     EMAIL_PASSWORD: process.env.EMAIL_PASSWORD,
     BREVO_SMTP_PASSWORD: process.env.BREVO_SMTP_PASSWORD,
+    ACME_EMAIL_PASSWORD: process.env.ACME_EMAIL_PASSWORD,
   },
 }
 
