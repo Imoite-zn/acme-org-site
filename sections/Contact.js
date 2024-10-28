@@ -64,7 +64,7 @@ const Contact = () => {
       setNotification({ message: 'Your message has been sent successfully!', type: 'success' });
       setFormData({ name: '', email: '', number: '', message: '' });
     } catch (error) {
-      console.error('Submission error:', error);
+      console.log('Submission error:', error);
       setNotification({ message: `Error: ${error.message}`, type: 'error' });
     } finally {
       setIsSubmitting(false);
