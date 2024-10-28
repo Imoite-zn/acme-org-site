@@ -55,16 +55,19 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
-
+      // Check if the response is OK
       if (!response.ok) {
-        throw new Error(data.message || 'Something went wrong');
+        const errorText = await response.text(); // Get the raw error response
+        console.error('Error response:', errorText); // Log the error response
+        throw new Error(errorText || 'Something went wrong');
       }
+
+      const data = await response.json(); // Now parse as JSON
 
       setNotification({ message: 'Your message has been sent successfully!', type: 'success' });
       setFormData({ name: '', email: '', number: '', message: '' });
     } catch (error) {
-      console.log('Submission error:', error);
+      console.error('Submission error:', error); // Log the entire error object
       setNotification({ message: `Error: ${error.message}`, type: 'error' });
     } finally {
       setIsSubmitting(false);
