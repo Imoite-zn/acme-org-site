@@ -53,17 +53,17 @@ export default async function handler(req, res) {
     from: '"ACME Website" <info@acmekenya.org>', // Changed from address
     to: "info@acmekenya.org", // Added a backup email
     subject: "New Contact Form Submission - ACME WEBSITE",
-    html: `
-      <html>
-        <body>
-          <h1>New Contact Form Submission</h1>
-          <p><strong>Name:</strong> ${name}</p>
-          <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Phone:</strong> ${number}</p>
-          <p><strong>Message:</strong> ${message}</p>
-        </body>
-      </html>
-    `,
+    // html: `
+    //   <html>
+    //     <body>
+    //       <h1>New Contact Form Submission</h1>
+    //       <p><strong>Name:</strong> ${name}</p>
+    //       <p><strong>Email:</strong> ${email}</p>
+    //       <p><strong>Phone:</strong> ${number}</p>
+    //       <p><strong>Message:</strong> ${message}</p>
+    //     </body>
+    //   </html>
+    // `,
     text: `New Contact Form Submission\n\nName: ${name}\nEmail: ${email}\nPhone: ${number}\nMessage: ${message}`, // Added plain text version
   };
 
