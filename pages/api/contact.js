@@ -37,7 +37,7 @@ export default async function handler(req, res) {
 
   // Create a transporter using SMTP
   let transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
+    host: "mail.acmekenya.org",
     port: 465,
     secure: true,
     auth: {
